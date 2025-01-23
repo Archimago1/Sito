@@ -3,10 +3,11 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../../assets/logo.jpg";
+import "./styles.css";
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary sticky-top">
+    <Navbar expand="lg" className="bg-body-tertiary sticky-top" id="navbar">
       <Container>
         <Navbar.Brand href="#home">
           <img className="blog-navbar-brand" alt="logo" src={logo} />
