@@ -8,12 +8,12 @@ import "./styles.css";
 function NavBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary sticky-top" id="navbar">
-      <Container>
-        <Navbar.Brand href="#home">
+      <Container className="d-flex flex-row" id="container">
+        <Navbar.Brand href="#home" className=" d-flex flex-start">
           <img className="blog-navbar-brand" alt="logo" src={logo} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className="d-flex flex-end">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#servizi">Servizi</Nav.Link>
