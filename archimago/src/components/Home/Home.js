@@ -3,7 +3,7 @@ import NavBar from "../Navbar/Navbar.js";
 import Footer from "../Footer/Footer.js";
 import photo1 from "../../assets/photo1.png";
 
-import { Container, Row, Col, Image, Button, Stack } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import "./styles.css";
 
 function Home() {

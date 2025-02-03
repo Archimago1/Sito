@@ -1,0 +1,28 @@
+.font-face-Didot {
+    font-family: "Didot eText W01 Italic";
+    font-style: italic;
+    font-size: 80px;
+    font-stretch: wider;
+    font-weight: lighter;
+    line-height: 1.3em;
+    color: rgb(56, 55, 55);
+}
+
+.font-face-Cinzel {
+    font-family: "Cinzel";
+    font-style: italic;
+    font-size: 80px;
+    font-weight: lighter;
+    line-height: 1.3em;
+    color: rgb(56, 55, 55);
+}
+
+.font-face-Cinzel2 {
+    font-family: "CinzelDecorative";
+    font-style: italic;
+    font-size: 80px;
+    font-stretch: wider;
+    font-weight: lighter;
+    line-height: 1.3em;
+    color: rgb(56, 55, 55);
+}

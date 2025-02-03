@@ -15,17 +15,17 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="d-flex flex-end">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#servizi">Servizi</Nav.Link>
-            <Nav.Link href="#progetti">Progetti</Nav.Link>
+            <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/servizi">Servizi</Nav.Link>
+            <Nav.Link href="/progetti">Progetti</Nav.Link>
             <NavDropdown title="Team" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#amione">
+              <NavDropdown.Item href="/amione">
                 Paola Serena AMIONE
               </NavDropdown.Item>
-              <NavDropdown.Item href="#faienza">
+              <NavDropdown.Item href="/faienza">
                 Alfonso FAIENZA
               </NavDropdown.Item>
-              <NavDropdown.Item href="#politano">
+              <NavDropdown.Item href="/politano">
                 Cristina POLITANO
               </NavDropdown.Item>
               <NavDropdown.Divider />
@@ -33,7 +33,7 @@ function NavBar() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#contatti">Contatti</Nav.Link>
+            <Nav.Link href="/contatti">Contatti</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
