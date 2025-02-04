@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Didot'
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,4 +10,25 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: "Lichtner";
+  src: local("Lichtner"),
+  url("./fonts/Lichtner.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Didot";
+  src: local("Didot"),
+  url("./fonts/Didot.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "FuturaRenner";
+  src: local("FuturaRenner"),
+  url("./fonts/FuturaRenner-Light.otf") format("truetype");
+  font-weight: lighter;
 }

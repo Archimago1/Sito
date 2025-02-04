@@ -7,7 +7,11 @@ import "./styles.css";
 
 function NavBar() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary sticky-top" id="navbar">
+    <Navbar
+      expand="lg"
+      className="bg-body-tertiary sticky-top font-face-FuturaRennerNavbar"
+      id="navbar"
+    >
       <Container className="d-flex flex-row" id="container">
         <Navbar.Brand href="#home" className=" d-flex flex-start">
           <img className="blog-navbar-brand" alt="logo" src={logo} />
@@ -20,13 +24,13 @@ function NavBar() {
             <Nav.Link href="/progetti">Progetti</Nav.Link>
             <NavDropdown title="Team" id="basic-nav-dropdown">
               <NavDropdown.Item href="/amione">
-                Paola Serena AMIONE
+                Paola Serena <strong>AMIONE</strong>
               </NavDropdown.Item>
               <NavDropdown.Item href="/faienza">
-                Alfonso FAIENZA
+                Alfonso <strong>FAIENZA</strong>
               </NavDropdown.Item>
               <NavDropdown.Item href="/politano">
-                Cristina POLITANO
+                Cristina <strong>POLITANO</strong>
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">

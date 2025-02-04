@@ -1,11 +1,27 @@
 .font-face-Didot {
-    font-family: "Didot eText W01 Italic";
+    font-family: "Didot";
     font-style: italic;
     font-size: 80px;
     font-stretch: wider;
     font-weight: lighter;
     line-height: 1.3em;
     color: rgb(56, 55, 55);
+}
+
+.font-face-Didot2 {
+    font-family: "Didot";
+}
+
+.font-face-FuturaRenner {
+    font-family: "FuturaRenner";
+    
+    font-size: 18px;
+}
+
+.font-face-FuturaRennerNavbar {
+    font-family: "FuturaRenner";
+    font-weight: lighter;
+    font-size: 20px;
 }
 
 .font-face-Cinzel {
@@ -23,6 +39,14 @@
     font-size: 80px;
     font-stretch: wider;
     font-weight: lighter;
+    line-height: 1.3em;
+    color: rgb(56, 55, 55);
+}
+
+.font-face-Lichtner {
+    font-family: "Lichtner";
+    font-style: italic;
+    font-size: 80px;
     line-height: 1.3em;
     color: rgb(56, 55, 55);
 }
