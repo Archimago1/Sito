@@ -11,8 +11,8 @@ function Servizi() {
       <NavBar />
       <Container>
         <Row className="mt-5 mb-5 d-flex justify-content-center">
-          <Col lg={4} xs={6} className="p-3 me-4 d-flex">
-            <h1 className="font-face-Didot ">SERVIZI</h1>
+          <Col lg={4} xs={6} className="p-3 me-4 d-flex justify-content-end">
+            <h1 className="font-face-Didot">SERVIZI</h1>
           </Col>
           <Col lg={4} xs={6} className="p-3 d-flex">
             <p className="font-face-FuturaRenner">
@@ -32,7 +32,7 @@ function Servizi() {
         </Row>
 
         <Row className="mt-5 mb-5 d-flex justify-content-center">
-          <Col lg={4} xs={6} className="p-3 me-4 d-flex">
+          <Col lg={4} xs={6} className="p-3 me-4 d-flex justify-content-end">
             <h1 className="font-face-Didot ">OFFERTA</h1>
           </Col>
           <Col lg={4} xs={6} className="p-3 d-flex">
