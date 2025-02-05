@@ -8,6 +8,16 @@
     color: rgb(56, 55, 55);
 }
 
+.font-face-Didot-small {
+    font-family: "Didot";
+    font-style: italic;
+    font-size: 40px;
+    font-stretch: wider;
+    font-weight: lighter;
+    line-height: 1.3em;
+    color: rgb(56, 55, 55);
+}
+
 .font-face-Didot2 {
     font-family: "Didot";
 }

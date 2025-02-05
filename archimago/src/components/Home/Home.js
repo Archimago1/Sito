@@ -21,7 +21,7 @@ function Home() {
             <Image
               src={photo1}
               id="photo"
-              className="align-self-center justify-self-center"
+              className="align-self-center justify-self-center mt-3"
             />
           </Col>
         </Row>

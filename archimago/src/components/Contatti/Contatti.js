@@ -22,7 +22,7 @@ function Contatti() {
                 <strong>Archimago Srl</strong>
               </span>
               <br></br>
-              <span>Via Rossetti, 11 10154 - Torino</span>
+              <span>Via Rossetti, 11 - 10154 Torino</span>
               <br></br>
               <span>P.IVA: 10147120017</span>
               <br></br>

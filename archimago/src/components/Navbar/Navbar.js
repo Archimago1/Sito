@@ -1,7 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "../../assets/logo.jpg";
 import "./styles.css";
 
@@ -22,21 +21,7 @@ function NavBar() {
             <Nav.Link href="/home">Home</Nav.Link>
             <Nav.Link href="/servizi">Servizi</Nav.Link>
             <Nav.Link href="/progetti">Progetti</Nav.Link>
-            <NavDropdown title="Team" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/amione">
-                Paola Serena <strong>AMIONE</strong>
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/faienza">
-                Alfonso <strong>FAIENZA</strong>
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/politano">
-                Cristina <strong>POLITANO</strong>
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="/team">Team</Nav.Link>
             <Nav.Link href="/contatti">Contatti</Nav.Link>
           </Nav>
         </Navbar.Collapse>
