@@ -127,7 +127,7 @@ function Team() {
           </Col>
         </Row>
 
-        <Row className="mt-5 mb-5 d-flex justify-content-center" id="amione">
+        <Row className="mt-5 mb-5 d-flex justify-content-center" id="politano">
           <Col
             lg={4}
             xs={6}
@@ -158,6 +158,13 @@ function Team() {
               relazioni con le imprese e le maestranze.
             </p>
           </Col>
+        </Row>
+
+        <Row className="mt-5 mb-5 d-flex justify-content-start" id="politano">
+          <p className="font-face-FuturaRenner">
+            Lo studio si avvale inoltre di collaborazioni esterne per
+            progettazioni strutturali e impiantistiche.
+          </p>
         </Row>
       </Container>
 
