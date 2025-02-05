@@ -30,10 +30,11 @@ function Team() {
             <Image src={paola} id="photo1" className="mt-3" />
           </Col>
           <Col lg={4} xs={6} className="p-3 d-flex flex-column">
-            <p className="font-face-FuturaRenner">
+            <p className="font-face-FuturaRenner m-0">
               <strong>SOCIO Arch.</strong>
             </p>
-            <p className="font-face-FuturaRenner">
+            <hr></hr>
+            <p className="font-face-FuturaRenner m-0">
               Nata a Torino il 24/01/1966.<br></br>
               Laurea in Architettura presso il Politecnico di Torino con tesi
               "Porta Nuova: futuro nodo intermodale" - rel. Prof. C. Vaglio
@@ -67,7 +68,7 @@ function Team() {
                 </li>
               </ul>
             </p>
-            <p className="font-face-FuturaRenner">
+            <p className="font-face-FuturaRenner m-0">
               Iscritta negli elenchi del Ministero degli Interni ai sensi della
               L. 818/84 al n. TO04329A00758
             </p>
@@ -80,10 +81,11 @@ function Team() {
             xs={6}
             className="p-3 d-flex flex-column justify-content-end align-content-end align-items-end"
           >
-            <p className="font-face-FuturaRenner">
+            <p className="font-face-FuturaRenner m-0">
               <strong>SOCIO Arch.</strong>
             </p>
-            <p className="font-face-FuturaRenner destra">
+            <hr></hr>
+            <p className="font-face-FuturaRenner destra m-0">
               Nato a Torremaggiore (FG) il 29/10/1964.<br></br>
               Laurea in Architettura presso il Politecnico di Torino con tesi "
               Ipotesi progettuali e proposte di intervento in ambiti urbani di
@@ -110,7 +112,7 @@ function Team() {
                 </li>
               </ul>
             </p>
-            <p className="font-face-FuturaRenner destra">
+            <p className="font-face-FuturaRenner destra m-0">
               Iscritto negli elenchi del Ministero degli Interni ai sensi della
               L. 818/84 al n. TO04029A00759
             </p>
@@ -139,10 +141,11 @@ function Team() {
             <Image src={cristina} id="photo3" className="mt-3" />
           </Col>
           <Col lg={4} xs={6} className="p-3 d-flex flex-column">
-            <p className="font-face-FuturaRenner">
+            <p className="font-face-FuturaRenner m-0">
               <strong>COLLABORATRICE Dott.ssa in Arch.</strong>
             </p>
-            <p className="font-face-FuturaRenner">
+            <hr></hr>
+            <p className="font-face-FuturaRenner m-0">
               Nata a Copertino (LE) il 26/09/1984.<br></br> Nel 2010 ha
               conseguito la Laurea magistrale in Architettura presso la Facoltà
               di Architettura del Politecnico di Torino con tesi di laurea

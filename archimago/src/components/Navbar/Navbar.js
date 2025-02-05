@@ -12,7 +12,7 @@ function NavBar() {
       id="navbar"
     >
       <Container className="d-flex flex-row" id="container">
-        <Navbar.Brand href="#home" className=" d-flex flex-start">
+        <Navbar.Brand href="/home" className=" d-flex flex-start">
           <img className="blog-navbar-brand" alt="logo" src={logo} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
