@@ -18,6 +18,12 @@
     color: rgb(56, 55, 55);
 }
 
+.font-face-Didot-progetti {
+    font-family: "Didot";
+    font-style: italic;
+    color: rgb(56, 55, 55);
+}
+
 .font-face-Didot2 {
     font-family: "Didot";
 }
@@ -36,6 +42,10 @@
 .font-face-FuturaRennerFooter {
     font-family: "FuturaRenner";
     font-weight: lighter;
+}
+
+.font-face-FuturaRennerProgetti {
+    font-family: "FuturaRenner";
 }
 
 .font-face-Cinzel {

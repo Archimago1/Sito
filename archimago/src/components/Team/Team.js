@@ -12,13 +12,13 @@ function Team() {
     <>
       <NavBar />
       <Container>
-        <Row className="mt-5 mb-5 d-flex">
+        <Row className="mt-5 d-flex">
           <Col lg={4} xs={6} className="p-3 me-4 d-flex">
             <h1 className="font-face-Didot">TEAM</h1>
           </Col>
         </Row>
 
-        <Row className="mt-5 mb-5 d-flex justify-content-center" id="amione">
+        <Row className="mb-5 d-flex justify-content-center" id="amione">
           <Col
             lg={4}
             xs={6}
