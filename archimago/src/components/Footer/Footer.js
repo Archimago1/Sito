@@ -8,7 +8,7 @@ function Footer() {
     <Navbar expand="lg" className="bg-body-tertiary" id="footer">
       <Container className="d-flex flex-column justify-content-center">
         <Navbar.Brand id="title" className="font-face-FuturaRennerFooter">
-          <strong>Archimago srl</strong>
+          <strong>Archimago Srl</strong>
         </Navbar.Brand>
         <p className="font-face-FuturaRenner footer-bianco">
           P.IVA: 10147120017<br></br>ⓒ{currentYear}

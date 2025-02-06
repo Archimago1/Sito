@@ -11,12 +11,12 @@ function NavBar() {
       className="bg-body-tertiary sticky-top font-face-FuturaRennerNavbar"
       id="navbar"
     >
-      <Container className="d-flex flex-row" id="container">
-        <Navbar.Brand href="/home" className=" d-flex flex-start">
+      <Container>
+        <Navbar.Brand href="/home">
           <img className="blog-navbar-brand" alt="logo" src={logo} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="d-flex flex-end">
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/home">Home</Nav.Link>
             <Nav.Link href="/servizi">Servizi</Nav.Link>
