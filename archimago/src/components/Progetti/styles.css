@@ -5,4 +5,17 @@
 h5 {
     text-align: center;
     width: 250px;
+    justify-self: center;
+}
+
+.progetto:hover {
+    transform: scale(105%);
+    height: 100%;
+    z-index: 2;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.link {
+    text-decoration: none;
 }

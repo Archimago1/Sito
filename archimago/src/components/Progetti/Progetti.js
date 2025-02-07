@@ -3,6 +3,7 @@ import NavBar from "../Navbar/Navbar.js";
 import Footer from "../Footer/Footer.js";
 
 import { Container, Row, Col, Image } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 import ph1 from "../../assets/1p.jpg";
@@ -31,12 +32,14 @@ function Progetti() {
           <Col
             lg={3}
             xs={6}
-            className="p-0 d-flex flex-column align-items-center"
+            className="p-0 d-flex flex-column align-items-center progetto"
           >
-            <Image src={ph1} id="ph1" className="mt-3" />
-            <h5 className="font-face-Didot-progetti mt-3">
-              ASILO NIDO ADRIANO OLIVETTI
-            </h5>
+            <Link to="/progetti/progetto1" className="link">
+              <Image src={ph1} id="ph1" className="mt-3" />
+              <h5 className="font-face-Didot-progetti mt-3 justify-self-center">
+                ASILO NIDO ADRIANO OLIVETTI
+              </h5>
+            </Link>
           </Col>
 
           <Col

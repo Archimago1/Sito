@@ -2,6 +2,7 @@ import "./App.css";
 import Home from "./components/Home/Home.js";
 import Servizi from "./components/Servizi/Servizi.js";
 import Progetti from "./components/Progetti/Progetti.js";
+import Progetto1 from "./components/Progetti/ProgettiSingoli/Progetto1.js";
 import Team from "./components/Team/Team.js";
 import Contatti from "./components/Contatti/Contatti.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -14,6 +15,7 @@ function App() {
         <Route path="/home" exact element={<Home />} />
         <Route path="/servizi" exact element={<Servizi />} />
         <Route path="/progetti" exact element={<Progetti />} />
+        <Route path="/progetti/progetto1" exact element={<Progetto1 />} />
         <Route path="/team" exact element={<Team />} />
         <Route path="/contatti" exact element={<Contatti />} />
       </Routes>
