@@ -17,10 +17,18 @@ function Footer() {
           Site by Alice Ibba
         </p>
         <Col>
-          <a href="https://www.instagram.com/archimago_progettocasa/">
+          <a
+            href="https://www.instagram.com/archimago_progettocasa/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="bi bi-instagram"></i>
           </a>
-          <a href="https://www.facebook.com/people/Archimago-Progetto-Casa/100070568525104/">
+          <a
+            href="https://www.facebook.com/people/Archimago-Progetto-Casa/100070568525104/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i class="bi bi-facebook"></i>
           </a>
         </Col>
