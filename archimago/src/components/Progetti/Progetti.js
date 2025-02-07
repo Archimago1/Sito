@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../Navbar/Navbar.js";
 import Footer from "../Footer/Footer.js";
 
-import { Container, Row, Col, Image, Button, Stack } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import "./styles.css";
 
 import ph1 from "../../assets/1p.jpg";
@@ -11,13 +11,16 @@ import ph3 from "../../assets/3p.jpg";
 import ph4 from "../../assets/4p.jpg";
 import ph5 from "../../assets/5p.jpg";
 import ph6 from "../../assets/6p.jpg";
+import ph7 from "../../assets/7p.jpg";
+import ph8 from "../../assets/8p.jpg";
+import ph9 from "../../assets/9p.jpg";
 
 function Progetti() {
   return (
     <>
       <NavBar />
 
-      <Container>
+      <Container className="mb-5">
         <Row className="mt-5 d-flex">
           <Col lg={4} xs={6} className="p-3 me-4 d-flex">
             <h1 className="font-face-Didot">PROGETTI</h1>
@@ -90,6 +93,41 @@ function Progetti() {
             <Image src={ph6} id="ph6" className="mt-3" />
             <h5 className="font-face-Didot-progetti mt-3">
               PLESSO SCOLASTICO GIOVANNI PAPINI
+            </h5>
+          </Col>
+        </Row>
+
+        <Row className="mt-4 d-flex justify-content-center">
+          <Col
+            lg={3}
+            xs={6}
+            className="p-0 d-flex flex-column align-items-center"
+          >
+            <Image src={ph7} id="ph7" className="mt-3" />
+            <h5 className="font-face-Didot-progetti mt-3">
+              PARROCCHIA SAN GIOVANNI E BARTOLOMEO
+            </h5>
+          </Col>
+
+          <Col
+            lg={3}
+            xs={6}
+            className="p-0 d-flex flex-column align-items-center"
+          >
+            <Image src={ph8} id="ph8" className="mt-3" />
+            <h5 className="font-face-Didot-progetti mt-3">
+              APPARTAMENTO PRIVATO A TORINO
+            </h5>
+          </Col>
+
+          <Col
+            lg={3}
+            xs={6}
+            className="p-0 d-flex flex-column align-items-center"
+          >
+            <Image src={ph9} id="ph9" className="mt-3" />
+            <h5 className="font-face-Didot-progetti mt-3">
+              PALAZZINA PLURIFAMILIARE
             </h5>
           </Col>
         </Row>
