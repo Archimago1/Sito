@@ -21,8 +21,8 @@ function Progetti() {
       <NavBar />
 
       <Container className="mb-5">
-        <Row className="mt-5 d-flex">
-          <Col lg={4} xs={6} className="p-3 me-4 d-flex">
+        <Row className="mt-5 d-flex justify-content-center">
+          <Col lg={9} xs={6} className="p-3 d-flex">
             <h1 className="font-face-Didot">PROGETTI</h1>
           </Col>
         </Row>
