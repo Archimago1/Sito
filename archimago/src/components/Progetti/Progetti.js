@@ -45,7 +45,7 @@ function Progetti() {
           <Col
             lg={3}
             xs={6}
-            className="p-0 d-flex flex-column align-items-center"
+            className="p-0 d-flex flex-column align-items-center progetto"
           >
             <Image src={ph2} id="ph2" className="mt-3" />
             <h5 className="font-face-Didot-progetti mt-3">
@@ -56,7 +56,7 @@ function Progetti() {
           <Col
             lg={3}
             xs={6}
-            className="p-0 d-flex flex-column align-items-center"
+            className="p-0 d-flex flex-column align-items-center progetto"
           >
             <Image src={ph3} id="ph3" className="mt-3" />
             <h5 className="font-face-Didot-progetti mt-3">
@@ -69,7 +69,7 @@ function Progetti() {
           <Col
             lg={3}
             xs={6}
-            className="p-0 d-flex flex-column align-items-center"
+            className="p-0 d-flex flex-column align-items-center progetto"
           >
             <Image src={ph4} id="ph4" className="mt-3" />
             <h5 className="font-face-Didot-progetti mt-3">
@@ -80,7 +80,7 @@ function Progetti() {
           <Col
             lg={3}
             xs={6}
-            className="p-0 d-flex flex-column align-items-center"
+            className="p-0 d-flex flex-column align-items-center progetto"
           >
             <Image src={ph5} id="ph5" className="mt-3" />
             <h5 className="font-face-Didot-progetti mt-3">
@@ -91,7 +91,7 @@ function Progetti() {
           <Col
             lg={3}
             xs={6}
-            className="p-0 d-flex flex-column align-items-center"
+            className="p-0 d-flex flex-column align-items-center progetto"
           >
             <Image src={ph6} id="ph6" className="mt-3" />
             <h5 className="font-face-Didot-progetti mt-3">
@@ -104,7 +104,7 @@ function Progetti() {
           <Col
             lg={3}
             xs={6}
-            className="p-0 d-flex flex-column align-items-center"
+            className="p-0 d-flex flex-column align-items-center progetto"
           >
             <Image src={ph7} id="ph7" className="mt-3" />
             <h5 className="font-face-Didot-progetti mt-3">
@@ -115,7 +115,7 @@ function Progetti() {
           <Col
             lg={3}
             xs={6}
-            className="p-0 d-flex flex-column align-items-center"
+            className="p-0 d-flex flex-column align-items-center progetto"
           >
             <Image src={ph8} id="ph8" className="mt-3" />
             <h5 className="font-face-Didot-progetti mt-3">
@@ -126,7 +126,7 @@ function Progetti() {
           <Col
             lg={3}
             xs={6}
-            className="p-0 d-flex flex-column align-items-center"
+            className="p-0 d-flex flex-column align-items-center progetto"
           >
             <Image src={ph9} id="ph9" className="mt-3" />
             <h5 className="font-face-Didot-progetti mt-3">
