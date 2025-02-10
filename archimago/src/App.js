@@ -13,11 +13,13 @@ import Progetto8 from "./components/Progetti/ProgettiSingoli/Progetto8.js";
 import Progetto9 from "./components/Progetti/ProgettiSingoli/Progetto9.js";
 import Team from "./components/Team/Team.js";
 import Contatti from "./components/Contatti/Contatti.js";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/home" exact element={<Home />} />
