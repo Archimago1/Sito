@@ -47,10 +47,12 @@ function Progetti() {
             xs={6}
             className="p-0 d-flex flex-column align-items-center progetto"
           >
-            <Image src={ph2} id="ph2" className="mt-3" />
-            <h5 className="font-face-Didot-progetti mt-3">
-              PISCINA COMUNALE MASSIMO RIVETTI
-            </h5>
+            <Link to="/progetti/progetto2" className="link">
+              <Image src={ph2} id="ph2" className="mt-3" />
+              <h5 className="font-face-Didot-progetti mt-3">
+                PISCINA COMUNALE MASSIMO RIVETTI
+              </h5>
+            </Link>
           </Col>
 
           <Col
@@ -58,45 +60,12 @@ function Progetti() {
             xs={6}
             className="p-0 d-flex flex-column align-items-center progetto"
           >
-            <Image src={ph3} id="ph3" className="mt-3" />
-            <h5 className="font-face-Didot-progetti mt-3">
-              SCUOLA MEDIA GIOVANNI FALCONE
-            </h5>
-          </Col>
-        </Row>
-
-        <Row className="mt-4 d-flex justify-content-center">
-          <Col
-            lg={3}
-            xs={6}
-            className="p-0 d-flex flex-column align-items-center progetto"
-          >
-            <Image src={ph4} id="ph4" className="mt-3" />
-            <h5 className="font-face-Didot-progetti mt-3">
-              SCUOLA MEDIA GUIDO GOZZANO
-            </h5>
-          </Col>
-
-          <Col
-            lg={3}
-            xs={6}
-            className="p-0 d-flex flex-column align-items-center progetto"
-          >
-            <Image src={ph5} id="ph5" className="mt-3" />
-            <h5 className="font-face-Didot-progetti mt-3">
-              AREA ARCHEOLOGICA CASTELLO DI RIVOLI
-            </h5>
-          </Col>
-
-          <Col
-            lg={3}
-            xs={6}
-            className="p-0 d-flex flex-column align-items-center progetto"
-          >
-            <Image src={ph6} id="ph6" className="mt-3" />
-            <h5 className="font-face-Didot-progetti mt-3">
-              PLESSO SCOLASTICO GIOVANNI PAPINI
-            </h5>
+            <Link to="/progetti/progetto3" className="link">
+              <Image src={ph3} id="ph3" className="mt-3" />
+              <h5 className="font-face-Didot-progetti mt-3">
+                SCUOLA MEDIA GIOVANNI FALCONE
+              </h5>
+            </Link>
           </Col>
         </Row>
 
@@ -106,10 +75,12 @@ function Progetti() {
             xs={6}
             className="p-0 d-flex flex-column align-items-center progetto"
           >
-            <Image src={ph7} id="ph7" className="mt-3" />
-            <h5 className="font-face-Didot-progetti mt-3">
-              PARROCCHIA SAN GIOVANNI E BARTOLOMEO
-            </h5>
+            <Link to="/progetti/progetto4" className="link">
+              <Image src={ph4} id="ph4" className="mt-3" />
+              <h5 className="font-face-Didot-progetti mt-3">
+                SCUOLA MEDIA GUIDO GOZZANO
+              </h5>
+            </Link>
           </Col>
 
           <Col
@@ -117,10 +88,12 @@ function Progetti() {
             xs={6}
             className="p-0 d-flex flex-column align-items-center progetto"
           >
-            <Image src={ph8} id="ph8" className="mt-3" />
-            <h5 className="font-face-Didot-progetti mt-3">
-              APPARTAMENTO PRIVATO A TORINO
-            </h5>
+            <Link to="/progetti/progetto5" className="link">
+              <Image src={ph5} id="ph5" className="mt-3" />
+              <h5 className="font-face-Didot-progetti mt-3">
+                AREA ARCHEOLOGICA CASTELLO DI RIVOLI
+              </h5>
+            </Link>
           </Col>
 
           <Col
@@ -128,10 +101,53 @@ function Progetti() {
             xs={6}
             className="p-0 d-flex flex-column align-items-center progetto"
           >
-            <Image src={ph9} id="ph9" className="mt-3" />
-            <h5 className="font-face-Didot-progetti mt-3">
-              PALAZZINA PLURIFAMILIARE
-            </h5>
+            <Link to="/progetti/progetto6" className="link">
+              <Image src={ph6} id="ph6" className="mt-3" />
+              <h5 className="font-face-Didot-progetti mt-3">
+                PLESSO SCOLASTICO GIOVANNI PAPINI
+              </h5>
+            </Link>
+          </Col>
+        </Row>
+
+        <Row className="mt-4 d-flex justify-content-center">
+          <Col
+            lg={3}
+            xs={6}
+            className="p-0 d-flex flex-column align-items-center progetto"
+          >
+            <Link to="/progetti/progetto7" className="link">
+              <Image src={ph7} id="ph7" className="mt-3" />
+              <h5 className="font-face-Didot-progetti mt-3">
+                PARROCCHIA SAN GIOVANNI E BARTOLOMEO
+              </h5>
+            </Link>
+          </Col>
+
+          <Col
+            lg={3}
+            xs={6}
+            className="p-0 d-flex flex-column align-items-center progetto"
+          >
+            <Link to="/progetti/progetto8" className="link">
+              <Image src={ph8} id="ph8" className="mt-3" />
+              <h5 className="font-face-Didot-progetti mt-3">
+                APPARTAMENTO PRIVATO A TORINO
+              </h5>
+            </Link>
+          </Col>
+
+          <Col
+            lg={3}
+            xs={6}
+            className="p-0 d-flex flex-column align-items-center progetto"
+          >
+            <Link to="/progetti/progetto9" className="link">
+              <Image src={ph9} id="ph9" className="mt-3" />
+              <h5 className="font-face-Didot-progetti mt-3">
+                PALAZZINA PLURIFAMILIARE
+              </h5>
+            </Link>
           </Col>
         </Row>
       </Container>
