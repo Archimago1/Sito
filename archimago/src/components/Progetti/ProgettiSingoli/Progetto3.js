@@ -5,10 +5,14 @@ import Footer from "../../Footer/Footer.js";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "./styles.css";
 
-import PH1 from "../../../assets/11.jpg";
-import PH2 from "../../../assets/12.jpg";
-import PH3 from "../../../assets/13.jpg";
-import PH4 from "../../../assets/14.jpg";
+import PH1 from "../../../assets/3-1.jpg";
+import PH2 from "../../../assets/3-2.jpg";
+import PH3 from "../../../assets/3-3.jpg";
+import PH4 from "../../../assets/3-4.jpg";
+import PH5 from "../../../assets/3-5.jpg";
+import PH6 from "../../../assets/3-6.jpg";
+import PH7 from "../../../assets/3-7.jpg";
+import PH8 from "../../../assets/3-8.jpg";
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
@@ -27,7 +31,7 @@ function Progetto3() {
         <Row className="mt-5 d-flex justify-content-center">
           <Col lg={9} xs={6} className="p-3 d-flex">
             <h1 className="font-face-Didot h1-progetto">
-              ASILO NIDO ADRIANO OLIVETTI
+              SCUOLA MEDIA GIOVANNI FALCONE
             </h1>
           </Col>
         </Row>
@@ -39,7 +43,7 @@ function Progetto3() {
             className="p-0 d-flex flex-column align-items-center"
           >
             <h5 className="font-face-Didot-progetti mt-3">WHERE</h5>
-            <p className="font-face-FuturaRenner p-progetto">Ivrea</p>
+            <p className="font-face-FuturaRenner p-progetto">Mappano</p>
           </Col>
 
           <Col
@@ -48,7 +52,7 @@ function Progetto3() {
             className="p-0 d-flex flex-column align-items-center"
           >
             <h5 className="font-face-Didot-progetti mt-3">WHEN</h5>
-            <p className="font-face-FuturaRenner p-progetto">2004</p>
+            <p className="font-face-FuturaRenner p-progetto">2010</p>
           </Col>
 
           <Col
@@ -58,7 +62,7 @@ function Progetto3() {
           >
             <h5 className="font-face-Didot-progetti mt-3">WHAT</h5>
             <p className="font-face-FuturaRenner p-progetto">
-              Restauro e adeguamento normativo per l’ottenimento del CPI
+              Ampliamento della scuola media Giovanni Falcone
             </p>
           </Col>
         </Row>
@@ -75,7 +79,7 @@ function Progetto3() {
               <Image src={PH1} id="pc1" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  La nuova sala giochi, più confortevole e sicura
+                  La scuola sopraelevata vista dal giardino
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -83,8 +87,7 @@ function Progetto3() {
               <Image src={PH2} id="pc2" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  Planimetria generale con inquadramento e indicazione degli
-                  interventi
+                  Planimetria del piano terra
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -92,16 +95,42 @@ function Progetto3() {
               <Image src={PH3} id="pc3" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  Particolari costruttivi della nuova parete attrezzata dotata
-                  di armadietto, mensola e fasciatoio
+                  Planimetria del piano primo
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <Image src={PH4} id="pc4" className="carouselImage d-block" />
               <Carousel.Caption>
+                <p className="font-face-FuturaRenner">Prospetto verso sud</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image src={PH5} id="pc5" className="carouselImage d-block" />
+              <Carousel.Caption>
+                <p className="font-face-FuturaRenner">Prospetto verso ovest</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image src={PH6} id="pc6" className="carouselImage d-block" />
+              <Carousel.Caption>
+                <p className="font-face-FuturaRenner">Sezione</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image src={PH7} id="pc7" className="carouselImage d-block" />
+              <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  La nuova parete attrezzata sotto la vetrata
+                  I pilastri a sostegno della copertura scandiscono il prospetto
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image src={PH8} id="pc8" className="carouselImage d-block" />
+              <Carousel.Caption>
+                <p className="font-face-FuturaRenner">
+                  Lo spazio prospettico creato dal susseguirsi dei portali lungo
+                  il camminamento esterno
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -110,43 +139,39 @@ function Progetto3() {
 
         <Row className="mt-4 d-flex justify-content-center">
           <p className="font-face-FuturaRenner p-progetto">
-            L’asilo nido Adriano Olivetti fu progettato e costruito tra il 1939
-            e il 1941 dagli architetti L. Figini e G. Pollini, nell’ambito della
-            seconda fase di ampliamento delle officine Olivetti.<br></br>
+            Il progetto ha riguardato le opere di ampliamento di un edificio
+            scolastico esistente: la Scuola Media “G. Falcone” sita a Mappano,
+            Frazione del Comune di Borgaro T.se. Nello specifico l’intervento si
+            è concretizzato nella sopraelevazione di un corpo di fabbrica
+            dell’edificio scolastico, al fine di soddisfare la crescente
+            necessità da parte della scuola di nuovi laboratori, nuove aule e
+            relativi servizi igienici. L’obiettivo principale era quello di
+            realizzare un edificio che, oltre a garantire in modo ottimale
+            l’esercizio delle funzioni caratteristiche della destinazione d’uso,
+            rappresentasse un modello di sostenibilità ambientale e qualità di
+            fruizione. Per ottenere i risultati prefissati, si è seguito un un
+            processo di verifica di qualità prestazionale e compatibilità
+            ambientale per ogni scelta di carattere architettonico, tecnologico
+            o impiantistico.<br></br>
             <hr></hr>
-            Gli interventi previsti, dettati da esigenze normative (Prevenzione
-            Incendi, bonifica amianto), non interferiscono con i caratteri
-            originali dell’edificio, il quale risulta identificato nel nuovo
-            P.R.G. del 2000 quale “Edificio di rilevanza architettonica e
-            monumentale” . La sostituzione di materiali o la modifica di
-            elementi costruttivi (pavimenti, serramenti, …) riguarda parti già
-            sostituite in passato e sono state pensate nel rispetto delle
-            tipologie e disegno originali.<br></br>
-            <hr></hr>
-            L’edificio è composto da un corpo principale sviluppato su due
-            livelli fuori terra, nel quale sono collocate le sezioni ed i locali
-            di servizio quali cucina, bagni, magazzini, spogliatoi ecc., ed un
-            piano interrato dove sono ubicati i magazzini per il deposito del
-            materiale didattico. A destra dell’ingresso principale è presente un
-            piccolo fabbricato i cui locali sono utilizzati come uffici per la
-            direzione ed il personale. Una rampa e una gradinata portano al
-            giardino posto sul dosso collinoso, dove è presente un’area verde
-            per il gioco ed un basso fabbricato utilizzato come aula giardino
-            nel periodo estivo.<br></br>
-            <hr></hr>
-            L’obiettivo principale dell’intervento risultava la messa a norma
-            dell’edificio relativamente alle opere necessarie al conseguimento
-            del C.P.I.; a tal fine sono stati realizzati una serie di interventi
-            di manutenzione straordinaria. In particolare, l’adeguamento del
-            fabbricato alle norme di sicurezza antincendio hanno comportato lo
-            studio di nuovi percorsi di esodo che utilizzano le aperture
-            esistenti, opportunamente ridisegnate, ma senza apportare variazioni
-            sulla loro connotazione architettonica originale. In tal modo si è
-            riusciti a dotare di una propria uscita di sicurezza ogni locale
-            frequentato dai bambini, elevando così il livello di sicurezza ben
-            oltre il requisito normativo. Le pavimentazioni esistenti, più volte
-            oggetto di sostituzione nel corso della vita dell’edificio, sono
-            state sostituite con pavimenti in linoleum, come quelli originali.
+            Per quanto possibile, per l’ampliamento si è cercato di mantenere le
+            stesse caratteristiche architettoniche, in continuità con la
+            preesistenza. L’ossatura portante è stata realizzata in c.a. con
+            contrafforti antisismici in acciaio e cemento armato mentre la
+            muratura perimetrale di tamponamento è stata costruita con sistema a
+            cassa vuota, costituito da laterizio porizzato intonacato verso
+            l’interno e mattoni faccia vista verso l’esterno, con interposizione
+            di pannelli isolanti in lana minerale. Tutte le partizioni interne,
+            sono state realizzate con murature stratificate al fine di
+            raggiungere un adeguato isolamento acustico tra gli ambienti
+            confinanti. Tutti i serramenti esterni sono stati costruiti con
+            l’impiego di profili in alluminio a taglio termico con vetrate
+            isolanti termoacustiche e vetri basso emissivi, i quali garantiscono
+            una trasmittanza termica media serramento/vetro Uw inferiore o
+            uguale a 1.4 W/ m2K. La copertura dell’edificio è stata realizzata
+            con struttura in legno lamellare, con travi “sdraiate” di spessore 7
+            cm. Il manto di copertura è costituito in lamiera grecata, con
+            creazione di ventilazione naturale da gronda a colmo.
           </p>
         </Row>
       </Container>
