@@ -52,8 +52,8 @@ function Home() {
         </Row>
 
         <Row className="mt-5 mb-5 d-flex justify-content-center">
-          <Col lg={4} xs={6} className="pt-3 d-flex">
-            <p className="font-face-FuturaRenner destra">
+          <Col lg={4} xs={6} className="pt-3 d-flex order-lg-1 order-2">
+            <p className="font-face-FuturaRenner destra parDaSpostare">
               Le esperienze maturate e il percorso formativo e professionale dei
               singoli componenti dello studio, hanno contribuito alla
               definizione di una propria metodologia di progetto, soprattutto
@@ -70,7 +70,7 @@ function Home() {
           <Col
             lg={4}
             xs={6}
-            className="p-3 me-4 d-flex flex-column align-items-start"
+            className="p-3 me-4 d-flex flex-column align-items-start order-lg-2 order-1"
           >
             <Image src={p2} id="p2" className="" />
           </Col>
@@ -103,8 +103,8 @@ function Home() {
         </Row>
 
         <Row className="mt-5 mb-5 d-flex justify-content-center">
-          <Col lg={4} xs={6} className="pt-3 d-flex">
-            <p className="font-face-FuturaRenner destra">
+          <Col lg={4} xs={6} className="pt-3 d-flex order-lg-1 order-2">
+            <p className="font-face-FuturaRenner destra parDaSpostare">
               Nel corso di oltre un ventennio di attività, lo studio,
               diversificando i settori di intervento (Restauro Monumentale,
               Edilizia Residenziale, Edilizia Scolastica, Impianti Sportivi,
@@ -124,7 +124,7 @@ function Home() {
           <Col
             lg={4}
             xs={6}
-            className="p-3 me-4 d-flex flex-column align-items-start"
+            className="p-3 me-4 d-flex flex-column align-items-start order-lg-2 order-1"
           >
             <Image src={p4} id="p4" className="" />
           </Col>
