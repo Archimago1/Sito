@@ -5,3 +5,20 @@
 #divano, #disegno {
     width: 350px;    
 }
+
+@media only screen and (max-width: 992px) {
+    #divano, #disegno {
+        margin: 0 auto !important;
+    }
+
+    h1 {
+        text-align: center !important;
+        
+    }
+
+    .parDaSpostare {
+        text-align: left !important;
+    }
+
+    
+}

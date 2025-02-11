@@ -14,13 +14,13 @@ function Servizi() {
         <Row className="mt-5 mb-5 d-flex justify-content-center">
           <Col
             lg={4}
-            xs={6}
-            className="p-3 me-4 d-flex flex-column align-items-end"
+            xs={12}
+            className="p-3 me-4 d-flex flex-column align-items-lg-end colTitoloImg"
           >
             <h1 className="font-face-Didot">SERVIZI</h1>
             <Image src={divano} id="divano" className="mt-3" />
           </Col>
-          <Col lg={4} xs={6} className="pt-3 d-flex">
+          <Col lg={4} xs={12} className="pt-3 d-flex">
             <p className="font-face-FuturaRenner">
               Lo studio <strong>Archimago</strong> nasce con l'intento di
               integrare esperienze professionali e specializzazioni acquisite da
@@ -38,8 +38,8 @@ function Servizi() {
         </Row>
 
         <Row className="mt-5 mb-5 d-flex justify-content-center">
-          <Col lg={4} xs={6} className="pt-3 d-flex">
-            <p className="font-face-FuturaRenner destra">
+          <Col lg={4} xs={12} className="pt-3 d-flex order-lg-1 order-2">
+            <p className="font-face-FuturaRenner destra parDaSpostare">
               • Rilievi architettonici e topografici<br></br>• Progettazione
               integrata e direzione lavori<br></br>• Progettazione e
               realizzazione di impianti di produzione di energia da fonti
@@ -58,8 +58,8 @@ function Servizi() {
           </Col>
           <Col
             lg={4}
-            xs={6}
-            className="p-3 me-4 d-flex flex-column align-items-start"
+            xs={12}
+            className="p-3 me-4 d-flex flex-column align-items-lg-start order-lg-2 order-1 colTitoloImg"
           >
             <h1 className="font-face-Didot ">OFFERTA</h1>
             <Image src={disegno} id="disegno" className="mt-3" />
