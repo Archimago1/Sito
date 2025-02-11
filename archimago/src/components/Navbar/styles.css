@@ -5,4 +5,12 @@
 
 #basic-navbar-nav {
     flex-grow: 0;
+    background-color: rgb(255, 255, 255) !important;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .blog-navbar-brand {
+        max-width: 250px;
+    }
 }

@@ -9,3 +9,15 @@
 .destra {
     text-align: right;
 }
+
+@media only screen and (max-width: 576px) {
+    #photo {
+        max-width: 350px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    #photo {
+        max-width: 500px;
+    }
+}
