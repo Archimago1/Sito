@@ -20,7 +20,7 @@ function Servizi() {
             <h1 className="font-face-Didot">SERVIZI</h1>
             <Image src={divano} id="divano" className="mt-3" />
           </Col>
-          <Col lg={4} xs={12} className="pt-3 d-flex">
+          <Col lg={4} xs={12} className="pt-3 px-0 d-flex">
             <p className="font-face-FuturaRenner">
               Lo studio <strong>Archimago</strong> nasce con l'intento di
               integrare esperienze professionali e specializzazioni acquisite da
