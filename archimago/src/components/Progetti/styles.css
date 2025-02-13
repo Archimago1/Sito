@@ -19,3 +19,22 @@ h5 {
 .link {
     text-decoration: none;
 }
+
+@media only screen and (max-width: 992px) {
+    h1 {
+        text-align: center !important;
+        font-size: 60px !important;
+        
+    }
+
+    .rowProgetti {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .colH1 {
+        justify-content: center;
+    }
+
+}

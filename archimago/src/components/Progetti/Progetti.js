@@ -23,12 +23,12 @@ function Progetti() {
 
       <Container className="mb-5">
         <Row className="mt-5 d-flex justify-content-center">
-          <Col lg={9} xs={6} className="p-3 d-flex">
+          <Col lg={9} xs={12} className="p-3 d-flex colH1">
             <h1 className="font-face-Didot">PROGETTI</h1>
           </Col>
         </Row>
 
-        <Row className="mt-4 d-flex justify-content-center">
+        <Row className="mt-4 d-flex justify-content-center rowProgetti">
           <Col
             lg={3}
             xs={6}
@@ -69,7 +69,7 @@ function Progetti() {
           </Col>
         </Row>
 
-        <Row className="mt-4 d-flex justify-content-center">
+        <Row className="mt-4 d-flex justify-content-center rowProgetti">
           <Col
             lg={3}
             xs={6}
@@ -110,7 +110,7 @@ function Progetti() {
           </Col>
         </Row>
 
-        <Row className="mt-4 d-flex justify-content-center">
+        <Row className="mt-4 d-flex justify-content-center rowProgetti">
           <Col
             lg={3}
             xs={6}

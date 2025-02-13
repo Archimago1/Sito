@@ -25,6 +25,7 @@
 @media only screen and (max-width: 992px) {
     #p1, #p2, #p3, #p4 {
         margin: 0 auto;
+        max-width: 200px;
     }
 
     .parDaSpostare {

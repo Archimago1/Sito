@@ -20,5 +20,8 @@
         text-align: left !important;
     }
 
-    
+    .par {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }

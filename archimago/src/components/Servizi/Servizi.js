@@ -21,7 +21,7 @@ function Servizi() {
             <Image src={divano} id="divano" className="mt-3" />
           </Col>
           <Col lg={4} xs={12} className="pt-3 px-0 d-flex">
-            <p className="font-face-FuturaRenner">
+            <p className="font-face-FuturaRenner par">
               Lo studio <strong>Archimago</strong> nasce con l'intento di
               integrare esperienze professionali e specializzazioni acquisite da
               singoli professionisti per rispondere in modo esaustivo alle
@@ -39,7 +39,7 @@ function Servizi() {
 
         <Row className="mt-5 mb-5 d-flex justify-content-center">
           <Col lg={4} xs={12} className="pt-3 d-flex order-lg-1 order-2">
-            <p className="font-face-FuturaRenner destra parDaSpostare">
+            <p className="font-face-FuturaRenner destra parDaSpostare par">
               • Rilievi architettonici e topografici<br></br>• Progettazione
               integrata e direzione lavori<br></br>• Progettazione e
               realizzazione di impianti di produzione di energia da fonti
