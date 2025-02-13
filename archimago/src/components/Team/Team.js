@@ -21,20 +21,20 @@ function Team() {
         <Row className="mb-5 d-flex justify-content-center" id="amione">
           <Col
             lg={4}
-            xs={6}
-            className="p-3 me-4 d-flex flex-column align-items-end"
+            xs={12}
+            className="p-3 me-lg-4 d-flex flex-column align-items-lg-end align-items-center"
           >
-            <h1 className="font-face-Didot-small d-flex flex-column justify-content-end align-content-end align-items-end">
+            <h1 className="font-face-Didot-small d-flex flex-column justify-content-lg-end align-content-lg-end align-items-lg-end h1Team">
               Paola Serena <strong>AMIONE</strong>
             </h1>
             <Image src={paola} id="photo1" className="mt-3" />
           </Col>
           <Col lg={4} xs={6} className="p-3 d-flex flex-column">
-            <p className="font-face-FuturaRenner m-0">
+            <p className="font-face-FuturaRenner m-0 ruolo">
               <strong>SOCIO Arch.</strong>
             </p>
             <hr></hr>
-            <p className="font-face-FuturaRenner m-0">
+            <p className="font-face-FuturaRenner m-0 parTeam">
               Nata a Torino il 24/01/1966.<br></br>
               Laurea in Architettura presso il Politecnico di Torino con tesi
               "Porta Nuova: futuro nodo intermodale" - rel. Prof. C. Vaglio
@@ -45,7 +45,7 @@ function Team() {
               Membro della Commissione di Urbanistica dell'Ordine degli
               Architetti della Provincia di Torino.
             </p>
-            <p className="font-face-FuturaRenner">
+            <p className="font-face-FuturaRenner mt-3">
               Qualifiche conseguite:
               <ul>
                 <li>
@@ -68,7 +68,7 @@ function Team() {
                 </li>
               </ul>
             </p>
-            <p className="font-face-FuturaRenner m-0">
+            <p className="font-face-FuturaRenner m-0 parTeam">
               Iscritta negli elenchi del Ministero degli Interni ai sensi della
               L. 818/84 al n. TO04329A00758
             </p>
@@ -79,13 +79,13 @@ function Team() {
           <Col
             lg={4}
             xs={6}
-            className="p-3 d-flex flex-column justify-content-end align-content-end align-items-end"
+            className="p-3 d-flex flex-column justify-content-lg-end align-content-lg-end align-items-lg-end order-lg-1 order-2"
           >
-            <p className="font-face-FuturaRenner m-0">
+            <p className="font-face-FuturaRenner m-0 ruolo">
               <strong>SOCIO Arch.</strong>
             </p>
             <hr></hr>
-            <p className="font-face-FuturaRenner destra m-0">
+            <p className="font-face-FuturaRenner destra m-0 parTeam">
               Nato a Torremaggiore (FG) il 29/10/1964.<br></br>
               Laurea in Architettura presso il Politecnico di Torino con tesi "
               Ipotesi progettuali e proposte di intervento in ambiti urbani di
@@ -96,7 +96,7 @@ function Team() {
               Membro della Commissione Igienico-Edilizia come esperto per
               l'Impatto Ambientale nel Comune di Druento (TO) dal 2000 al 2004.
             </p>
-            <p className="font-face-FuturaRenner destra">
+            <p className="font-face-FuturaRenner destra mt-3 parTeamLista">
               Qualifiche conseguite:
               <ul>
                 <li>
@@ -112,17 +112,17 @@ function Team() {
                 </li>
               </ul>
             </p>
-            <p className="font-face-FuturaRenner destra m-0">
+            <p className="font-face-FuturaRenner destra m-0 parTeam">
               Iscritto negli elenchi del Ministero degli Interni ai sensi della
               L. 818/84 al n. TO04029A00759
             </p>
           </Col>
           <Col
             lg={4}
-            xs={6}
-            className="p-3 me-4 d-flex flex-column align-items-start"
+            xs={12}
+            className="p-3 me-lg-4 d-flex flex-column align-items-lg-start align-items-center order-lg-2 order-1"
           >
-            <h1 className="font-face-Didot-small d-flex flex-column justify-content-start align-content-start align-items-start">
+            <h1 className="font-face-Didot-small d-flex flex-column justify-content-start align-content-lg-start align-items-lg-start h1Team">
               Alfonso <strong>FAIENZA</strong>
             </h1>
             <Image src={alfonso} id="photo2" className="mt-3" />
@@ -132,20 +132,20 @@ function Team() {
         <Row className="mt-5 mb-5 d-flex justify-content-center" id="politano">
           <Col
             lg={4}
-            xs={6}
-            className="p-3 me-4 d-flex flex-column align-items-end"
+            xs={12}
+            className="p-3 me-lg-4 d-flex flex-column align-items-lg-end align-items-center"
           >
-            <h1 className="font-face-Didot-small d-flex flex-column justify-content-end align-content-end align-items-end">
+            <h1 className="font-face-Didot-small d-flex flex-column justify-content-end align-content-lg-end align-items-lg-end h1Team">
               Cristina <strong>POLITANO</strong>
             </h1>
             <Image src={cristina} id="photo3" className="mt-3" />
           </Col>
           <Col lg={4} xs={6} className="p-3 d-flex flex-column">
-            <p className="font-face-FuturaRenner m-0">
+            <p className="font-face-FuturaRenner m-0 ruolo">
               <strong>COLLABORATRICE Dott.ssa in Arch.</strong>
             </p>
             <hr></hr>
-            <p className="font-face-FuturaRenner m-0">
+            <p className="font-face-FuturaRenner m-0 parTeam">
               Nata a Copertino (LE) il 26/09/1984.<br></br> Nel 2010 ha
               conseguito la Laurea magistrale in Architettura presso la Facoltà
               di Architettura del Politecnico di Torino con tesi di laurea
@@ -164,7 +164,7 @@ function Team() {
         </Row>
 
         <Row className="mt-5 mb-5 d-flex justify-content-start" id="politano">
-          <p className="font-face-FuturaRenner">
+          <p className="font-face-FuturaRenner fine">
             Lo studio si avvale inoltre di collaborazioni esterne per
             progettazioni strutturali e impiantistiche.
           </p>

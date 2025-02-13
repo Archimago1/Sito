@@ -11,3 +11,22 @@ hr {
     border: 1px solid black;
     width: 100%;
 }
+
+@media only screen and (max-width: 992px) {
+    .h1Team {
+        text-align: center !important;
+        font-size: 40px !important;     
+    }
+
+    .parTeam {
+        text-align: justify !important;
+    }
+
+    .ruolo, .fine {
+        text-align: center !important;
+    }
+
+    .parTeamLista {
+        text-align: start !important;
+    }
+}
