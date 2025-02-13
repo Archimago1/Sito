@@ -25,8 +25,8 @@ function Progetto7() {
 
       <Container className="mb-5">
         <Row className="mt-5 d-flex justify-content-center">
-          <Col lg={9} xs={6} className="p-3 d-flex">
-            <h1 className="font-face-Didot h1-progetto">
+          <Col lg={9} xs={6} className="p-3 d-flex justify-content-center">
+            <h1 className="font-face-Didot h1ProgettoPiccolo">
               PARROCCHIA SAN GIOVANNI E BARTOLOMEO
             </h1>
           </Col>
@@ -107,7 +107,7 @@ function Progetto7() {
         </Row>
 
         <Row className="mt-4 d-flex justify-content-center">
-          <p className="font-face-FuturaRenner p-progetto">
+          <p className="font-face-FuturaRenner pDescrizioneProgetto">
             L’individuazione dell’epoca di costruzione dell’impianto originario
             è databile con certezza in data 29 maggio 1594, ma solo nel 1604 si
             avrà la consacrazione al culto. Successivamente la struttura è stata

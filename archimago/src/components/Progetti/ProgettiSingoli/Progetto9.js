@@ -26,8 +26,8 @@ function Progetto9() {
 
       <Container className="mb-5">
         <Row className="mt-5 d-flex justify-content-center">
-          <Col lg={9} xs={6} className="p-3 d-flex">
-            <h1 className="font-face-Didot h1-progetto">
+          <Col lg={9} xs={6} className="p-3 d-flex justify-content-center">
+            <h1 className="font-face-Didot h1ProgettoPiccolo">
               PALAZZINA PLURIFAMILIARE
             </h1>
           </Col>
@@ -116,7 +116,7 @@ function Progetto9() {
         </Row>
 
         <Row className="mt-4 d-flex justify-content-center">
-          <p className="font-face-FuturaRenner p-progetto">
+          <p className="font-face-FuturaRenner pDescrizioneProgetto">
             Il progetto prevedeva un intervento di riqualificazione edilizia
             volto a migliorare la sicurezza strutturale, l’efficienza energetica
             e la sostenibilità dell’edificio, integrando soluzioni tecnologiche

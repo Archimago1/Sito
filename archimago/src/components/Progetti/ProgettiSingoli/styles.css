@@ -7,3 +7,38 @@
 .h1-progetto {
     text-align: center;
 }
+
+.h1ProgettoPiccolo {
+    text-align: center;
+}
+
+.pDescrizioneProgetto {
+    text-align: center;
+    justify-self: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .h1-progetto {
+        text-align: center !important;
+        font-size: 60px !important;
+    }
+
+    .p-progetto {
+        width: auto;
+    }
+
+    .pDescrizioneProgetto {
+        text-align: justify;
+    }
+
+    .h1ProgettoPiccolo {
+        text-align: center !important;
+        font-size: 40px !important;
+    }
+
+    .carouselImage {
+        width: 300px;
+        height: auto;
+    }
+
+}

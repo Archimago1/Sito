@@ -27,7 +27,7 @@ function Progetto2() {
 
       <Container className="mb-5">
         <Row className="mt-5 d-flex justify-content-center">
-          <Col lg={9} xs={6} className="p-3 d-flex">
+          <Col lg={9} xs={6} className="p-3 d-flex justify-content-center">
             <h1 className="font-face-Didot h1-progetto">
               PISCINA COMUNALE MASSIMO RIVETTI
             </h1>
@@ -121,7 +121,7 @@ function Progetto2() {
         </Row>
 
         <Row className="mt-4 d-flex justify-content-center">
-          <p className="font-face-FuturaRenner p-progetto">
+          <p className="font-face-FuturaRenner pDescrizioneProgetto">
             Il complesso sportivo, realizzato dalla famiglia Rivetti negli anni
             ’60, era costituito da una palestra ed una piscina di 25 metri
             intitolata a “Massimo Rivetti”, situata nel comune di Biella. Il

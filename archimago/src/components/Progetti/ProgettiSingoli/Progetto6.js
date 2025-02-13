@@ -28,7 +28,7 @@ function Progetto6() {
 
       <Container className="mb-5">
         <Row className="mt-5 d-flex justify-content-center">
-          <Col lg={9} xs={6} className="p-3 d-flex">
+          <Col lg={9} xs={6} className="p-3 d-flex justify-content-center">
             <h1 className="font-face-Didot h1-progetto">
               PLESSO SCOLASTICO GIOVANNI PAPINI
             </h1>
@@ -122,7 +122,7 @@ function Progetto6() {
         </Row>
 
         <Row className="mt-4 d-flex justify-content-center">
-          <p className="font-face-FuturaRenner p-progetto">
+          <p className="font-face-FuturaRenner pDescrizioneProgetto">
             Il progetto di ampliamento del fabbricato scolastico esistente è
             stato condotto secondo modalità rispettose delle scelte effettuate
             in origine nei riguardi dell’edificio (risalente ai primi anni ’70),

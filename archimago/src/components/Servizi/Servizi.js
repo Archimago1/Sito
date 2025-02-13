@@ -15,13 +15,13 @@ function Servizi() {
           <Col
             lg={4}
             xs={12}
-            className="p-3 me-4 d-flex flex-column align-items-lg-end colTitoloImg"
+            className="p-3 me-lg-4 d-flex flex-column align-items-lg-end colTitoloImg"
           >
             <h1 className="font-face-Didot">SERVIZI</h1>
             <Image src={divano} id="divano" className="mt-3" />
           </Col>
           <Col lg={4} xs={12} className="pt-3 px-0 d-flex">
-            <p className="font-face-FuturaRenner par">
+            <p className="font-face-FuturaRenner par par1">
               Lo studio <strong>Archimago</strong> nasce con l'intento di
               integrare esperienze professionali e specializzazioni acquisite da
               singoli professionisti per rispondere in modo esaustivo alle
@@ -59,7 +59,7 @@ function Servizi() {
           <Col
             lg={4}
             xs={12}
-            className="p-3 me-4 d-flex flex-column align-items-lg-start order-lg-2 order-1 colTitoloImg"
+            className="p-3 me-lg-4 d-flex flex-column align-items-lg-start order-lg-2 order-1 colTitoloImg"
           >
             <h1 className="font-face-Didot ">OFFERTA</h1>
             <Image src={disegno} id="disegno" className="mt-3" />

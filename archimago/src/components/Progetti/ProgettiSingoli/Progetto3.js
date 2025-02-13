@@ -29,7 +29,7 @@ function Progetto3() {
 
       <Container className="mb-5">
         <Row className="mt-5 d-flex justify-content-center">
-          <Col lg={9} xs={6} className="p-3 d-flex">
+          <Col lg={9} xs={6} className="p-3 d-flex justify-content-center">
             <h1 className="font-face-Didot h1-progetto">
               SCUOLA MEDIA GIOVANNI FALCONE
             </h1>
@@ -138,7 +138,7 @@ function Progetto3() {
         </Row>
 
         <Row className="mt-4 d-flex justify-content-center">
-          <p className="font-face-FuturaRenner p-progetto">
+          <p className="font-face-FuturaRenner pDescrizioneProgetto">
             Il progetto ha riguardato le opere di ampliamento di un edificio
             scolastico esistente: la Scuola Media “G. Falcone” sita a Mappano,
             Frazione del Comune di Borgaro T.se. Nello specifico l’intervento si

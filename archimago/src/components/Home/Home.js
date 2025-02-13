@@ -37,8 +37,8 @@ function Home() {
           >
             <Image src={p1} id="p1" className="" />
           </Col>
-          <Col lg={4} xs={6} className="pt-3 d-flex">
-            <p className="font-face-FuturaRenner">
+          <Col lg={4} xs={6} className="pt-3 d-flex ps-lg-0">
+            <p className="font-face-FuturaRenner pHome">
               Lo studio <strong>Archimago</strong> svolge la propria attività
               professionale nell’ambito della progettazione integrata e
               sostenibile dal 1999, nascendo quale naturale prosecuzione,
@@ -53,7 +53,7 @@ function Home() {
 
         <Row className="mt-5 mb-5 d-flex justify-content-center">
           <Col lg={4} xs={6} className="pt-3 d-flex order-lg-1 order-2">
-            <p className="font-face-FuturaRenner destra parDaSpostare">
+            <p className="font-face-FuturaRenner destra pHome">
               Le esperienze maturate e il percorso formativo e professionale dei
               singoli componenti dello studio, hanno contribuito alla
               definizione di una propria metodologia di progetto, soprattutto
@@ -84,8 +84,8 @@ function Home() {
           >
             <Image src={p3} id="p3" className="" />
           </Col>
-          <Col lg={4} xs={6} className="pt-3 d-flex">
-            <p className="font-face-FuturaRenner">
+          <Col lg={4} xs={6} className="pt-3 d-flex ps-lg-0">
+            <p className="font-face-FuturaRenner pHome">
               I valori che lo studio promuove sono quelli della cultura
               progettuale più avanzata, soprattutto per la sua attenzione alle
               reali esigenze della committenza e dell’ambiente storico e fisico
@@ -104,7 +104,7 @@ function Home() {
 
         <Row className="mt-5 mb-5 d-flex justify-content-center">
           <Col lg={4} xs={6} className="pt-3 d-flex order-lg-1 order-2">
-            <p className="font-face-FuturaRenner destra parDaSpostare">
+            <p className="font-face-FuturaRenner destra pHome">
               Nel corso di oltre un ventennio di attività, lo studio,
               diversificando i settori di intervento (Restauro Monumentale,
               Edilizia Residenziale, Edilizia Scolastica, Impianti Sportivi,

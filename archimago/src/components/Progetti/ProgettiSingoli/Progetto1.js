@@ -25,7 +25,7 @@ function Progetto1() {
 
       <Container className="mb-5">
         <Row className="mt-5 d-flex justify-content-center">
-          <Col lg={9} xs={6} className="p-3 d-flex">
+          <Col lg={9} xs={6} className="p-3 d-flex justify-content-center">
             <h1 className="font-face-Didot h1-progetto">
               ASILO NIDO ADRIANO OLIVETTI
             </h1>
@@ -109,7 +109,7 @@ function Progetto1() {
         </Row>
 
         <Row className="mt-4 d-flex justify-content-center">
-          <p className="font-face-FuturaRenner p-progetto">
+          <p className="font-face-FuturaRenner pDescrizioneProgetto">
             L’asilo nido Adriano Olivetti fu progettato e costruito tra il 1939
             e il 1941 dagli architetti L. Figini e G. Pollini, nell’ambito della
             seconda fase di ampliamento delle officine Olivetti.<br></br>
