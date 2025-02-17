@@ -11,6 +11,7 @@ import Progetto6 from "./components/Progetti/ProgettiSingoli/Progetto6.js";
 import Progetto7 from "./components/Progetti/ProgettiSingoli/Progetto7.js";
 import Progetto8 from "./components/Progetti/ProgettiSingoli/Progetto8.js";
 import Progetto9 from "./components/Progetti/ProgettiSingoli/Progetto9.js";
+import Progetto10 from "./components/Progetti/ProgettiSingoli/Progetto10.js";
 import Team from "./components/Team/Team.js";
 import Contatti from "./components/Contatti/Contatti.js";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop.js";
@@ -34,6 +35,7 @@ function App() {
         <Route path="/progetti/progetto7" exact element={<Progetto7 />} />
         <Route path="/progetti/progetto8" exact element={<Progetto8 />} />
         <Route path="/progetti/progetto9" exact element={<Progetto9 />} />
+        <Route path="/progetti/progetto10" exact element={<Progetto10 />} />
         <Route path="/team" exact element={<Team />} />
         <Route path="/contatti" exact element={<Contatti />} />
       </Routes>

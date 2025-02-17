@@ -15,6 +15,7 @@ import ph6 from "../../assets/6p.jpg";
 import ph7 from "../../assets/7p.jpg";
 import ph8 from "../../assets/8p.jpg";
 import ph9 from "../../assets/9p.jpg";
+import ph10 from "../../assets/10p.jpg";
 
 function Progetti() {
   return (
@@ -120,6 +121,47 @@ function Progetti() {
               <Image src={ph7} id="ph7" className="mt-3" />
               <h5 className="font-face-Didot-progetti mt-3">
                 PARROCCHIA SAN GIOVANNI E BARTOLOMEO
+              </h5>
+            </Link>
+          </Col>
+
+          <Col
+            lg={3}
+            xs={6}
+            className="p-0 d-flex flex-column align-items-center progetto"
+          >
+            <Link to="/progetti/progetto8" className="link">
+              <Image src={ph8} id="ph8" className="mt-3" />
+              <h5 className="font-face-Didot-progetti mt-3">
+                APPARTAMENTO PRIVATO A TORINO
+              </h5>
+            </Link>
+          </Col>
+
+          <Col
+            lg={3}
+            xs={6}
+            className="p-0 d-flex flex-column align-items-center progetto"
+          >
+            <Link to="/progetti/progetto9" className="link">
+              <Image src={ph9} id="ph9" className="mt-3" />
+              <h5 className="font-face-Didot-progetti mt-3">
+                PALAZZINA PLURIFAMILIARE
+              </h5>
+            </Link>
+          </Col>
+        </Row>
+
+        <Row className="mt-4 d-flex justify-content-center rowProgetti">
+          <Col
+            lg={3}
+            xs={6}
+            className="p-0 d-flex flex-column align-items-center progetto"
+          >
+            <Link to="/progetti/progetto10" className="link">
+              <Image src={ph10} id="ph10" className="mt-3" />
+              <h5 className="font-face-Didot-progetti mt-3">
+                VILLA INDIPENDENTE
               </h5>
             </Link>
           </Col>
