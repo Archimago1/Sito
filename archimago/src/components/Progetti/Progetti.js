@@ -16,6 +16,8 @@ import ph7 from "../../assets/7p.jpg";
 import ph8 from "../../assets/8p.jpg";
 import ph9 from "../../assets/9p.jpg";
 import ph10 from "../../assets/10p.jpg";
+import ph11 from "../../assets/11p.jpg";
+import ph12 from "../../assets/12p.jpg";
 
 function Progetti() {
   return (
@@ -171,10 +173,10 @@ function Progetti() {
             xs={6}
             className="p-0 d-flex flex-column align-items-center progetto"
           >
-            <Link to="/progetti/progetto8" className="link">
-              <Image src={ph8} id="ph8" className="mt-3" />
+            <Link to="/progetti/progetto11" className="link">
+              <Image src={ph11} id="ph11" className="mt-3" />
               <h5 className="font-face-Didot-progetti mt-3">
-                APPARTAMENTO PRIVATO A TORINO
+                PALAZZINA UNIFAMILIARE
               </h5>
             </Link>
           </Col>
@@ -184,10 +186,10 @@ function Progetti() {
             xs={6}
             className="p-0 d-flex flex-column align-items-center progetto"
           >
-            <Link to="/progetti/progetto9" className="link">
-              <Image src={ph9} id="ph9" className="mt-3" />
+            <Link to="/progetti/progetto12" className="link">
+              <Image src={ph12} id="ph12" className="mt-3" />
               <h5 className="font-face-Didot-progetti mt-3">
-                PALAZZINA PLURIFAMILIARE
+                EDIFICIO UNIFAMILIARE
               </h5>
             </Link>
           </Col>
