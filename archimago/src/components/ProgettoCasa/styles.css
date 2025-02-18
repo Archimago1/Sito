@@ -7,3 +7,15 @@
         max-width: 350px;
     }
 }
+
+.h3PC {
+    text-align: center;
+}
+
+.pPC {
+    text-align: justify;
+}
+
+#ML1, #ML2, #ML3  {
+    width: 100px;
+}
