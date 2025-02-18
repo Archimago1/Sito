@@ -3,6 +3,7 @@ import NavBar from "../../Navbar/Navbar.js";
 import Footer from "../../Footer/Footer.js";
 
 import { Container, Row, Col, Image } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 import PH1 from "../../../assets/11-1.jpg";
@@ -136,6 +137,40 @@ function Progetto11() {
             aumentando il livello di comfort abitativo, con un approccio
             sostenibile e allineato alle moderne esigenze di efficienza.
           </p>
+        </Row>
+
+        <Row className="mt-5 d-flex justify-content-between">
+          <Col
+            lg={1}
+            xs={3}
+            className="p-0 d-flex flex-column align-items-center"
+          >
+            <Link
+              to="/progetti/progetto10"
+              className="link d-flex flex-column align-items-center"
+            >
+              <h6 className="font-face-Didot-progetti mt-3 h6freccia">
+                PROGETTO PRECEDENTE
+              </h6>
+              <i class="bi bi-arrow-left"></i>
+            </Link>
+          </Col>
+
+          <Col
+            lg={1}
+            xs={3}
+            className="p-0 d-flex flex-column align-items-center"
+          >
+            <Link
+              to="/progetti/progetto12"
+              className="link d-flex flex-column align-items-center"
+            >
+              <h6 className="font-face-Didot-progetti mt-3 h6freccia">
+                PROGETTO SUCCESSIVO
+              </h6>
+              <i class="bi bi-arrow-right"></i>
+            </Link>
+          </Col>
         </Row>
       </Container>
 

@@ -41,4 +41,17 @@
         height: auto;
     }
 
+    .h6freccia {
+        font-size: smaller;
+    }
+
+}
+
+.h6freccia {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
 }
