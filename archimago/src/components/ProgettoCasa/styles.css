@@ -1,0 +1,9 @@
+#logoPC {
+    width: 500px;    
+}
+
+@media only screen and (max-width: 576px) {
+    #logoPC {
+        max-width: 350px;
+    }
+}

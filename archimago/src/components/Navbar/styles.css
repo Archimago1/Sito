@@ -14,3 +14,9 @@
         max-width: 250px;
     }
 }
+
+.break-word {
+    display: block;
+    text-align: center;
+}
+

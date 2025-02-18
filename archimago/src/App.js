@@ -1,6 +1,7 @@
 import "./App.css";
 import Home from "./components/Home/Home.js";
 import Servizi from "./components/Servizi/Servizi.js";
+import ProgettoCasa from "./components/ProgettoCasa/ProgettoCasa.js";
 import Progetti from "./components/Progetti/Progetti.js";
 import Progetto1 from "./components/Progetti/ProgettiSingoli/Progetto1.js";
 import Progetto2 from "./components/Progetti/ProgettiSingoli/Progetto2.js";
@@ -27,6 +28,7 @@ function App() {
         <Route path="/" exact element={<Home />} />
         <Route path="/home" exact element={<Home />} />
         <Route path="/servizi" exact element={<Servizi />} />
+        <Route path="/progettoCasa" exact element={<ProgettoCasa />} />
         <Route path="/progetti" exact element={<Progetti />} />
         <Route path="/progetti/progetto1" exact element={<Progetto1 />} />
         <Route path="/progetti/progetto2" exact element={<Progetto2 />} />

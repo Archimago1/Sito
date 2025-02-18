@@ -20,6 +20,7 @@ function NavBar() {
           <Nav className="me-auto">
             <Nav.Link href="/home">Home</Nav.Link>
             <Nav.Link href="/servizi">Servizi</Nav.Link>
+            <Nav.Link href="/progettoCasa">Progetto Casa</Nav.Link>
             <Nav.Link href="/progetti">Progetti</Nav.Link>
             <Nav.Link href="/team">Team</Nav.Link>
             <Nav.Link href="/contatti">Contatti</Nav.Link>
