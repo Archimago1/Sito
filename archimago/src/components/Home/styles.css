@@ -31,4 +31,12 @@
     .pHome {
         text-align: justify !important;
     }
+
+    .h2Home {
+        font-size: 30px;
+    }
+}
+
+.h2Home {
+    text-align: center;
 }

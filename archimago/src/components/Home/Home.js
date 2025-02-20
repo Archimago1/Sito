@@ -14,7 +14,7 @@ function Home() {
     <>
       <NavBar />
       <Container>
-        <Row className="d-flex justify-content-center align-items-center">
+        <Row className="d-flex flex-column justify-content-center align-items-center">
           <Col
             lg={4}
             xs={12}
@@ -26,6 +26,19 @@ function Home() {
               id="photo"
               className="align-self-center justify-self-center my-5"
             />
+          </Col>
+
+          <Col
+            lg={4}
+            xs={12}
+            className="d-flex justify-content-center align-items-center"
+            id="photo1"
+          >
+            <h2 className="font-face-Didot-small h2Home">
+              PROGETTAZIONE<br></br>
+              COSTRUZIONE<br></br>
+              RISTRUTTURAZIONE
+            </h2>
           </Col>
         </Row>
 
