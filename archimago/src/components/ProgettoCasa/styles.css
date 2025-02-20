@@ -19,3 +19,12 @@
 #ML1, #ML2, #ML3  {
     width: 100px;
 }
+
+@media only screen and (max-width: 992px) {
+    
+    .rowPC {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

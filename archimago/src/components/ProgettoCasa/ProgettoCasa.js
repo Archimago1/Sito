@@ -34,11 +34,11 @@ function ProgettoCasa() {
           </Col>
         </Row>
 
-        <Row className="mt-5 mb-5 d-flex justify-content-center">
+        <Row className="mt-5 mb-5 d-flex justify-content-center rowPC">
           <Col
             lg={3}
             xs={6}
-            className="p-3 me-4 d-flex flex-column align-items-center"
+            className="p-3 me-lg-4 d-flex flex-column align-items-center justify-self-center"
           >
             <Image src={ML1} id="ML1" className="" />
             <h4 className="font-face-FuturaRennerProgetti h4PC">
@@ -58,7 +58,7 @@ function ProgettoCasa() {
           <Col
             lg={3}
             xs={6}
-            className="p-3 me-4 d-flex flex-column align-items-center"
+            className="p-3 me-lg-4 d-flex flex-column align-items-center"
           >
             <Image src={ML2} id="ML2" className="" />
             <h4 className="font-face-FuturaRennerProgetti h4PC">
@@ -78,7 +78,7 @@ function ProgettoCasa() {
           <Col
             lg={3}
             xs={6}
-            className="p-3 me-4 d-flex flex-column align-items-center"
+            className="p-3 me-lg-4 d-flex flex-column align-items-center"
           >
             <Image src={ML3} id="ML3" className="" />
             <h4 className="font-face-FuturaRennerProgetti h4PC">
