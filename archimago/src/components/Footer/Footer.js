@@ -14,7 +14,14 @@ function Footer() {
           P.IVA: 10147120017<br></br>ⓒ{currentYear}
           <br></br>
           All rights reserved<br></br>
-          Site by Alice Ibba
+          Site by{" "}
+          <a
+            href="https://aliceibba-developer.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Alice Ibba
+          </a>
         </p>
         <Col>
           <a
