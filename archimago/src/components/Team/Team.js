@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavBar from "../Navbar/Navbar.js";
 import Footer from "../Footer/Footer.js";
 import { Container, Row, Col, Image } from "react-bootstrap";
@@ -8,6 +8,10 @@ import alfonso from "../../assets/alfonso.jpg";
 import cristina from "../../assets/cristina.jpg";
 
 function Team() {
+  useEffect(() => {
+    document.title = "ARCHIMAGO | Team";
+  }, []);
+
   return (
     <>
       <NavBar />

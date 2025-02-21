@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavBar from "../Navbar/Navbar.js";
 import Footer from "../Footer/Footer.js";
 
@@ -20,6 +20,10 @@ import ph11 from "../../assets/11p.jpg";
 import ph12 from "../../assets/12p.jpg";
 
 function Progetti() {
+  useEffect(() => {
+    document.title = "ARCHIMAGO | Progetti";
+  }, []);
+
   return (
     <>
       <NavBar />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavBar from "../Navbar/Navbar.js";
 import Footer from "../Footer/Footer.js";
 import { Container, Row, Col, Image } from "react-bootstrap";
@@ -7,6 +7,10 @@ import divano from "../../assets/divano.jpg";
 import disegno from "../../assets/disegno.jpg";
 
 function Servizi() {
+  useEffect(() => {
+    document.title = "ARCHIMAGO | Servizi";
+  }, []);
+
   return (
     <>
       <NavBar />

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavBar from "../Navbar/Navbar.js";
 import Footer from "../Footer/Footer.js";
 import photo1 from "../../assets/photo1.png";
@@ -10,6 +10,10 @@ import p3 from "../../assets/3.jpg";
 import p4 from "../../assets/4.jpg";
 
 function Home() {
+  useEffect(() => {
+    document.title = "ARCHIMAGO | Home";
+  }, []);
+
   return (
     <>
       <NavBar />

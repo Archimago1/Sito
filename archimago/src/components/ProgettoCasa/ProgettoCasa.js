@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavBar from "../Navbar/Navbar.js";
 import Footer from "../Footer/Footer.js";
 import logoPC from "../../assets/logo2.jpg";
@@ -9,6 +9,10 @@ import ML2 from "../../assets/mini-logo2.jpg";
 import ML3 from "../../assets/mini-logo3.jpg";
 
 function ProgettoCasa() {
+  useEffect(() => {
+    document.title = "ARCHIMAGO | Progetto Casa";
+  }, []);
+
   return (
     <>
       <NavBar />
