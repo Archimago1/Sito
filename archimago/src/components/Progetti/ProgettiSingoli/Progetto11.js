@@ -59,8 +59,8 @@ function Progetto11() {
           >
             <h5 className="font-face-Didot-progetti mt-3">WHAT</h5>
             <p className="font-face-FuturaRenner p-progetto">
-              Interventi di manutenzione straordinaria - <br></br>Progetto e
-              realizzazione
+              Interventi di manutenzione straordinaria - <br></br>
+              <strong>Progetto e realizzazione</strong>
             </p>
           </Col>
         </Row>
