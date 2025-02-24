@@ -37,8 +37,20 @@
     }
 
     .carouselImage {
-        max-width: 1000px !important;
-        height: auto;
+        max-width: 100% !important; /* Imposta la larghezza massima */
+        height: auto !important;
+        display: block; /* Assicura che non ci siano margini strani */
+        margin: 0 auto !important; /* Centra l'immagine */
+        object-fit: contain; /* Evita il taglio dell'immagine */
+    }
+
+    .carousel-item {
+        margin-right: 0 !important;
+    }
+
+    .carousel .carousel-inner {
+        display: flex;
+        justify-content: center;
     }
 
     .h6freccia {
