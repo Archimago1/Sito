@@ -14,6 +14,9 @@ import PH5 from "../../../assets/8-5.jpg";
 import PH6 from "../../../assets/8-6.jpg";
 import PH7 from "../../../assets/8-7.jpg";
 import PH8 from "../../../assets/8-8.jpg";
+import PH9 from "../../../assets/8-9.jpg";
+import PH10 from "../../../assets/8-10.jpg";
+import PH11 from "../../../assets/8-11.jpg";
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
@@ -119,18 +122,44 @@ function Progetto8() {
               <Image src={PH6} id="pc6" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  Vista sulla nuova cucina
+                  La cucina durante i lavori
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <Image src={PH7} id="pc7" className="carouselImage d-block" />
               <Carousel.Caption>
-                <p className="font-face-FuturaRenner">Il nuovo bagno</p>
+                <p className="font-face-FuturaRenner">
+                  La cucina dopo l'intervento
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <Image src={PH8} id="pc8" className="carouselImage d-block" />
+              <Carousel.Caption>
+                <p className="font-face-FuturaRenner">
+                  Vista sul nuovo salotto
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image src={PH9} id="pc9" className="carouselImage d-block" />
+              <Carousel.Caption>
+                <p className="font-face-FuturaRenner">
+                  Bagno dopo l'intervento
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image src={PH10} id="pc10" className="carouselImage d-block" />
+              <Carousel.Caption>
+                <p className="font-face-FuturaRenner">
+                  Un altro bagno dopo l'intervento
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image src={PH11} id="pc11" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
                   Particolare dell'armadio all'ingresso
