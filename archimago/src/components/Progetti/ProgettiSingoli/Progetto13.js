@@ -6,17 +6,17 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./styles.css";
 
-import PH1 from "../../../assets/12-1.jpg";
-import PH2 from "../../../assets/12-2.jpg";
-import PH3 from "../../../assets/12-3.jpg";
-import PH4 from "../../../assets/12-4.jpg";
-import PH5 from "../../../assets/12-5.jpg";
-import PH6 from "../../../assets/12-6.jpg";
+import PH1 from "../../../assets/13-1.jpeg";
+import PH2 from "../../../assets/13-2.jpg";
+import PH3 from "../../../assets/13-3.jpg";
+import PH4 from "../../../assets/13-4.jpg";
+import PH5 from "../../../assets/13-5.jpeg";
+import PH6 from "../../../assets/13-6.jpeg";
 
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-function Progetto12() {
+function Progetto13() {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
@@ -31,7 +31,7 @@ function Progetto12() {
         <Row className="mt-5 d-flex justify-content-center">
           <Col lg={9} xs={6} className="p-3 d-flex justify-content-center">
             <h1 className="font-face-Didot h1ProgettoPiccolo">
-              EDIFICIO UNIFAMILIARE
+              EDIFICIO CONDOMINIALE
             </h1>
           </Col>
         </Row>
@@ -43,7 +43,7 @@ function Progetto12() {
             className="p-0 d-flex flex-column align-items-center"
           >
             <h5 className="font-face-Didot-progetti mt-3">WHERE</h5>
-            <p className="font-face-FuturaRenner p-progetto">Torino</p>
+            <p className="font-face-FuturaRenner p-progetto">Cuorgnè</p>
           </Col>
 
           <Col
@@ -52,7 +52,7 @@ function Progetto12() {
             className="p-0 d-flex flex-column align-items-center"
           >
             <h5 className="font-face-Didot-progetti mt-3">WHEN</h5>
-            <p className="font-face-FuturaRenner p-progetto">2021</p>
+            <p className="font-face-FuturaRenner p-progetto">2023</p>
           </Col>
 
           <Col
@@ -87,22 +87,22 @@ function Progetto12() {
             <Carousel.Item>
               <Image src={PH2} id="pc2" className="carouselImage d-block" />
               <Carousel.Caption>
-                <p className="font-face-FuturaRenner">
-                  Lo stato della copertura prima dell'intervento
-                </p>
+                <p className="font-face-FuturaRenner">Pianta di progetto</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <Image src={PH3} id="pc3" className="carouselImage d-block" />
               <Carousel.Caption>
-                <p className="font-face-FuturaRenner">Piante di progetto</p>
+                <p className="font-face-FuturaRenner">
+                  Particolare del cappotto
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <Image src={PH4} id="pc4" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  Progetto delle due facciate
+                  Posa del cappotto termico
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -110,7 +110,7 @@ function Progetto12() {
               <Image src={PH5} id="pc5" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  La copertura durante l'intervento
+                  L'edificio dopo l'intervento
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -127,50 +127,52 @@ function Progetto12() {
 
         <Row className="mt-4 d-flex justify-content-center">
           <p className="font-face-FuturaRenner pDescrizioneProgetto">
-            Il progetto prevedeva una serie di interventi mirati a migliorare
-            l’efficienza energetica dell’edificio, riducendo i consumi e
-            aumentando il comfort abitativo attraverso soluzioni avanzate di
-            isolamento, produzione energetica e innovazione tecnologica.
+            Il progetto prevedeva un insieme di interventi volti a migliorare le
+            prestazioni energetiche dell’edificio, riducendo i consumi e
+            aumentando l’autosufficienza attraverso l’utilizzo di tecnologie
+            sostenibili.
             <br></br>
             <hr></hr>
-            Uno degli interventi principali ha riguardato l’isolamento termico
-            delle superfici opache verticali, orizzontali e inclinate tramite la
-            posa di un cappotto termico. Questo sistema permette di ridurre le
-            dispersioni di calore, mantenendo più stabili le temperature interne
-            e migliorando l’efficienza energetica dell’edificio. Inoltre, per
-            garantire un isolamento ottimale anche nelle coperture non
-            disperdenti, è stata effettuata una coibentazione mirata quando non
-            si è proceduto contestualmente all’isolamento del solaio
-            sottostante, assicurando così una protezione efficace contro le
-            dispersioni termiche.<br></br>
-            <hr></hr>A supporto dell’isolamento, sono stati sostituiti gli
-            infissi con nuovi serramenti ad alte prestazioni, in grado di
-            migliorare ulteriormente l’isolamento termico e acustico,
-            contribuendo alla riduzione dei consumi energetici per il
-            riscaldamento e il raffrescamento.<br></br>
+            Uno degli aspetti fondamentali dell’intervento riguardava
+            l’isolamento termico delle superfici opache verticali, orizzontali e
+            inclinate mediante la posa di un cappotto termico. Questo sistema ha
+            permesso di ridurre le dispersioni di calore, migliorando il comfort
+            abitativo e diminuendo il fabbisogno energetico per il riscaldamento
+            e il raffrescamento. A supporto di questa strategia, sono stati
+            sostituiti gli infissi con modelli ad alte prestazioni, capaci di
+            incrementare ulteriormente l’efficienza energetica dell’edificio e
+            migliorare l’isolamento acustico.<br></br>
+            <hr></hr>Per ottimizzare la gestione della luce naturale e del
+            calore solare, sono state installate schermature solari e chiusure
+            oscuranti, che contribuiscono a limitare il surriscaldamento estivo
+            e a migliorare l’efficienza complessiva dell’involucro edilizio.
+            <br></br>
             <hr></hr>
-            Per il sistema di riscaldamento, è stata installata una caldaia
-            standard, che garantisce un’erogazione efficiente del calore,
-            assicurando comfort abitativo e funzionalità.<br></br>
+            Il sistema di climatizzazione è stato completamente rinnovato con
+            l’installazione di pompe di calore (PDC) a compressione di vapore
+            elettriche, che rappresentano una soluzione altamente efficiente per
+            il riscaldamento e il raffrescamento degli ambienti. Inoltre, in
+            caso di condizioni idonee, il progetto prevedeva anche l’utilizzo di
+            sonde geotermiche, che consentono di sfruttare il calore naturale
+            del sottosuolo per ottimizzare le prestazioni del sistema.<br></br>
             <hr></hr>
-            Un altro aspetto fondamentale del progetto è stata la transizione
-            verso una maggiore indipendenza energetica, grazie all’installazione
-            di un impianto fotovoltaico per la produzione di energia elettrica
-            da fonte rinnovabile. Per massimizzare l’efficienza di questo
-            sistema, sono stati integrati accumulatori che permettono di
-            immagazzinare l’energia prodotta, rendendola disponibile anche nelle
-            ore di minor irraggiamento solare e riducendo la dipendenza dalla
-            rete elettrica tradizionale.<br></br>
+            Per favorire l’indipendenza energetica dell’edificio, è stato
+            installato un impianto fotovoltaico, che consentirà di produrre
+            energia elettrica da fonte rinnovabile. Questo è stato integrato con
+            sistemi di accumulo, che permettono di immagazzinare l’energia
+            prodotta durante il giorno e utilizzarla nelle ore di minore
+            irraggiamento solare, aumentando così l’autoconsumo e riducendo la
+            dipendenza dalla rete elettrica.<br></br>
             <hr></hr>
-            Infine, in ottica di mobilità sostenibile, sono state realizzate le
-            infrastrutture per la ricarica di veicoli elettrici, incentivando
-            l’uso di mezzi ecologici e rendendo l’edificio pronto per le
-            esigenze future in termini di sostenibilità ambientale.<br></br>
+            Infine, il progetto include l’installazione di infrastrutture per la
+            ricarica di veicoli elettrici, favorendo la mobilità sostenibile e
+            rendendo l’edificio pronto per le esigenze future in termini di
+            efficienza energetica e riduzione delle emissioni.<br></br>
             <hr></hr>
-            Questi interventi porteranno a un significativo miglioramento delle
-            prestazioni energetiche dell’edificio, garantendo un maggiore
-            risparmio sui consumi, un aumento del comfort e una riduzione
-            dell’impatto ambientale.
+            Nel complesso, questi interventi contribuiscono a trasformare
+            l’edificio in una struttura moderna ed ecosostenibile, garantendo un
+            significativo risparmio energetico e un miglioramento della qualità
+            della vita degli occupanti.
           </p>
         </Row>
 
@@ -181,7 +183,7 @@ function Progetto12() {
             className="p-0 d-flex flex-column align-items-center"
           >
             <Link
-              to="/progetti/progetto11"
+              to="/progetti/progetto12"
               className="link d-flex flex-column align-items-center"
             >
               <h6 className="font-face-Didot-progetti mt-3 h6freccia">
@@ -197,7 +199,7 @@ function Progetto12() {
             className="p-0 d-flex flex-column align-items-center"
           >
             <Link
-              to="/progetti/progetto13"
+              to="/progetti/progetto1"
               className="link d-flex flex-column align-items-center"
             >
               <h6 className="font-face-Didot-progetti mt-3 h6freccia">
@@ -214,4 +216,4 @@ function Progetto12() {
   );
 }
 
-export default Progetto12;
+export default Progetto13;
