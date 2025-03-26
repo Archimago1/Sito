@@ -158,7 +158,7 @@ function Progetto1() {
             className="p-0 d-flex flex-column align-items-center"
           >
             <Link
-              to="/progetti/progetto12"
+              to="/progetti/progetto13"
               className="link d-flex flex-column align-items-center"
             >
               <h6 className="font-face-Didot-progetti mt-3 h6freccia">
