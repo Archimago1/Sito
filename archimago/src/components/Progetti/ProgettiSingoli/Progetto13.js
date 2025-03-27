@@ -10,8 +10,12 @@ import PH1 from "../../../assets/13-1.jpeg";
 import PH2 from "../../../assets/13-2.jpg";
 import PH3 from "../../../assets/13-3.jpg";
 import PH4 from "../../../assets/13-4.jpg";
-import PH5 from "../../../assets/13-5.jpeg";
-import PH6 from "../../../assets/13-6.jpeg";
+import PH5 from "../../../assets/13-5.jpg";
+import PH6 from "../../../assets/13-6.jpg";
+import PH7 from "../../../assets/13-7.jpg";
+import PH8 from "../../../assets/13-8.jpg";
+import PH9 from "../../../assets/13-9.jpeg";
+import PH10 from "../../../assets/13-10.jpeg";
 
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
@@ -94,7 +98,7 @@ function Progetto13() {
               <Image src={PH3} id="pc3" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  Particolare del cappotto
+                  Posa del cappotto termico
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -102,7 +106,7 @@ function Progetto13() {
               <Image src={PH4} id="pc4" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  Posa del cappotto termico
+                  Particolare del cappotto
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -110,12 +114,44 @@ function Progetto13() {
               <Image src={PH5} id="pc5" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  L'edificio dopo l'intervento
+                  Posa dell'impianto di riscaldamento a pavimento
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <Image src={PH6} id="pc6" className="carouselImage d-block" />
+              <Carousel.Caption>
+                <p className="font-face-FuturaRenner">
+                  Predisposizione degli impianti durante l'intervento
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image src={PH7} id="pc7" className="carouselImage d-block" />
+              <Carousel.Caption>
+                <p className="font-face-FuturaRenner">
+                  Nuovo bagno dopo l'intervento
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image src={PH8} id="pc8" className="carouselImage d-block" />
+              <Carousel.Caption>
+                <p className="font-face-FuturaRenner">
+                  Nuovo bagno dopo l'intervento
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image src={PH9} id="pc9" className="carouselImage d-block" />
+              <Carousel.Caption>
+                <p className="font-face-FuturaRenner">
+                  L'edificio dopo l'intervento
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image src={PH10} id="pc10" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
                   L'edificio dopo l'intervento
