@@ -11,7 +11,8 @@ import PH2 from "../../../assets/12-2.jpg";
 import PH3 from "../../../assets/12-3.jpg";
 import PH4 from "../../../assets/12-4.jpg";
 import PH5 from "../../../assets/12-5.jpg";
-import PH6 from "../../../assets/12-6.jpg";
+import PH6 from "../../../assets/12-6.jpeg";
+import PH7 from "../../../assets/12-7.jpg";
 
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
@@ -116,6 +117,14 @@ function Progetto12() {
             </Carousel.Item>
             <Carousel.Item>
               <Image src={PH6} id="pc6" className="carouselImage d-block" />
+              <Carousel.Caption>
+                <p className="font-face-FuturaRenner">
+                  La copertura dopo l'intervento
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image src={PH7} id="pc7" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
                   L'edificio dopo l'intervento

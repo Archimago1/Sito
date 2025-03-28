@@ -19,6 +19,7 @@ import ph10 from "../../assets/10p.jpg";
 import ph11 from "../../assets/11p.jpg";
 import ph12 from "../../assets/12p.jpg";
 import ph13 from "../../assets/13p.jpg";
+import ph14 from "../../assets/14p.jpg";
 
 function Progetti() {
   useEffect(() => {
@@ -211,6 +212,17 @@ function Progetti() {
               <h5 className="font-face-Didot-progetti mt-3">
                 EDIFICIO CONDOMINIALE
               </h5>
+            </Link>
+          </Col>
+
+          <Col
+            lg={3}
+            xs={6}
+            className="p-0 d-flex flex-column align-items-center progetto"
+          >
+            <Link to="/progetti/progetto14" className="link">
+              <Image src={ph14} id="ph14" className="mt-3" />
+              <h5 className="font-face-Didot-progetti mt-3">CASA A SCHIERA</h5>
             </Link>
           </Col>
         </Row>

@@ -16,6 +16,7 @@ import PH7 from "../../../assets/13-7.jpg";
 import PH8 from "../../../assets/13-8.jpg";
 import PH9 from "../../../assets/13-9.jpeg";
 import PH10 from "../../../assets/13-10.jpeg";
+import PH11 from "../../../assets/13-11.jpeg";
 
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
@@ -114,7 +115,7 @@ function Progetto13() {
               <Image src={PH5} id="pc5" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  Posa dell'impianto di riscaldamento a pavimento
+                  Posa dell'impianto di riscaldamento a pavimento radiante
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -152,6 +153,14 @@ function Progetto13() {
             </Carousel.Item>
             <Carousel.Item>
               <Image src={PH10} id="pc10" className="carouselImage d-block" />
+              <Carousel.Caption>
+                <p className="font-face-FuturaRenner">
+                  Il retro dell'edificio dopo l'intervento
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image src={PH11} id="pc11" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
                   L'edificio dopo l'intervento
@@ -235,7 +244,7 @@ function Progetto13() {
             className="p-0 d-flex flex-column align-items-center"
           >
             <Link
-              to="/progetti/progetto1"
+              to="/progetti/progetto14"
               className="link d-flex flex-column align-items-center"
             >
               <h6 className="font-face-Didot-progetti mt-3 h6freccia">
