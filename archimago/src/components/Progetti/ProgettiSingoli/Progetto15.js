@@ -20,7 +20,7 @@ import PH10 from "../../../assets/14-10.jpeg";
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 
-function Progetto14() {
+function Progetto15() {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
@@ -35,7 +35,7 @@ function Progetto14() {
         <Row className="mt-5 d-flex justify-content-center">
           <Col lg={9} xs={6} className="p-3 d-flex justify-content-center">
             <h1 className="font-face-Didot h1ProgettoPiccolo">
-              CASA A SCHIERA
+              APPARTAMENTO A TORINO
             </h1>
           </Col>
         </Row>
@@ -47,7 +47,7 @@ function Progetto14() {
             className="p-0 d-flex flex-column align-items-center"
           >
             <h5 className="font-face-Didot-progetti mt-3">WHERE</h5>
-            <p className="font-face-FuturaRenner p-progetto">Pianezza</p>
+            <p className="font-face-FuturaRenner p-progetto">Torino</p>
           </Col>
 
           <Col
@@ -56,7 +56,7 @@ function Progetto14() {
             className="p-0 d-flex flex-column align-items-center"
           >
             <h5 className="font-face-Didot-progetti mt-3">WHEN</h5>
-            <p className="font-face-FuturaRenner p-progetto">2019</p>
+            <p className="font-face-FuturaRenner p-progetto">2022</p>
           </Col>
 
           <Col
@@ -218,7 +218,7 @@ function Progetto14() {
             className="p-0 d-flex flex-column align-items-center"
           >
             <Link
-              to="/progetti/progetto13"
+              to="/progetti/progetto14"
               className="link d-flex flex-column align-items-center"
             >
               <h6 className="font-face-Didot-progetti mt-3 h6freccia">
@@ -234,7 +234,7 @@ function Progetto14() {
             className="p-0 d-flex flex-column align-items-center"
           >
             <Link
-              to="/progetti/progetto15"
+              to="/progetti/progetto1"
               className="link d-flex flex-column align-items-center"
             >
               <h6 className="font-face-Didot-progetti mt-3 h6freccia">
@@ -251,4 +251,4 @@ function Progetto14() {
   );
 }
 
-export default Progetto14;
+export default Progetto15;

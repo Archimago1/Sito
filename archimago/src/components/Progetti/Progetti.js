@@ -20,6 +20,7 @@ import ph11 from "../../assets/11p.jpg";
 import ph12 from "../../assets/12p.jpg";
 import ph13 from "../../assets/13p.jpg";
 import ph14 from "../../assets/14p.jpg";
+import ph15 from "../../assets/15p.jpg";
 
 function Progetti() {
   useEffect(() => {
@@ -141,7 +142,7 @@ function Progetti() {
             <Link to="/progetti/progetto8" className="link">
               <Image src={ph8} id="ph8" className="mt-3" />
               <h5 className="font-face-Didot-progetti mt-3">
-                APPARTAMENTO PRIVATO A TORINO
+                APPARTAMENTO A TORINO
               </h5>
             </Link>
           </Col>
@@ -223,6 +224,19 @@ function Progetti() {
             <Link to="/progetti/progetto14" className="link">
               <Image src={ph14} id="ph14" className="mt-3" />
               <h5 className="font-face-Didot-progetti mt-3">CASA A SCHIERA</h5>
+            </Link>
+          </Col>
+
+          <Col
+            lg={3}
+            xs={6}
+            className="p-0 d-flex flex-column align-items-center progetto"
+          >
+            <Link to="/progetti/progetto15" className="link">
+              <Image src={ph15} id="ph15" className="mt-3" />
+              <h5 className="font-face-Didot-progetti mt-3">
+                APPARTAMENTO A TORINO
+              </h5>
             </Link>
           </Col>
         </Row>
