@@ -6,16 +6,17 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./styles.css";
 
-import PH1 from "../../../assets/14-1.jpg";
-import PH2 from "../../../assets/14-2.jpg";
-import PH3 from "../../../assets/14-3.jpg";
-import PH4 from "../../../assets/14-4.jpg";
-import PH5 from "../../../assets/14-5.jpg";
-import PH6 from "../../../assets/14-6.jpg";
-import PH7 from "../../../assets/14-7.jpg";
-import PH8 from "../../../assets/14-8.jpg";
-import PH9 from "../../../assets/14-9.jpg";
-import PH10 from "../../../assets/14-10.jpeg";
+import PH1 from "../../../assets/15-1.jpeg";
+import PH2 from "../../../assets/15-2.jpg";
+import PH3 from "../../../assets/15-3.jpg";
+import PH4 from "../../../assets/15-4.jpg";
+import PH5 from "../../../assets/15-5.jpg";
+import PH6 from "../../../assets/15-6.jpg";
+import PH7 from "../../../assets/15-7.jpg";
+import PH8 from "../../../assets/15-8.jpeg";
+import PH9 from "../../../assets/15-9.jpeg";
+import PH10 from "../../../assets/15-10.jpeg";
+import PH11 from "../../../assets/15-11.jpeg";
 
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
@@ -84,20 +85,24 @@ function Progetto15() {
               <Image src={PH1} id="pc1" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  L'edificio prima dell'intervento
+                  L'appartamento prima dell'intervento
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <Image src={PH2} id="pc2" className="carouselImage d-block" />
               <Carousel.Caption>
-                <p className="font-face-FuturaRenner">Piante di progetto</p>
+                <p className="font-face-FuturaRenner">
+                  L'appartamento durante l'intervento
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <Image src={PH3} id="pc3" className="carouselImage d-block" />
               <Carousel.Caption>
-                <p className="font-face-FuturaRenner">Pianta della copertura</p>
+                <p className="font-face-FuturaRenner">
+                  L'appartamento durante l'intervento
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -112,7 +117,7 @@ function Progetto15() {
               <Image src={PH5} id="pc5" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  Posa del cappotto termico
+                  Particolare del soffitto durante l'intervento
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -120,7 +125,7 @@ function Progetto15() {
               <Image src={PH6} id="pc6" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  Vista del cappotto termico interno
+                  Il nuovo pavimento in legno
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -128,7 +133,7 @@ function Progetto15() {
               <Image src={PH7} id="pc7" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  Posa dell'impianto di riscaldamento a pavimento radiante
+                  Il nuovo rivestimento del bagno
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -136,7 +141,7 @@ function Progetto15() {
               <Image src={PH8} id="pc8" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  L'edificio dopo l'intervento
+                  L'appartamento dopo l'intervento
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -144,7 +149,7 @@ function Progetto15() {
               <Image src={PH9} id="pc9" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  L'edificio dopo l'intervento
+                  L'appartamento dopo l'intervento
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -152,7 +157,15 @@ function Progetto15() {
               <Image src={PH10} id="pc10" className="carouselImage d-block" />
               <Carousel.Caption>
                 <p className="font-face-FuturaRenner">
-                  Particolare dei nuovi pannelli fotovoltaici
+                  Primo bagno dopo l'intervento
+                </p>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Image src={PH11} id="pc11" className="carouselImage d-block" />
+              <Carousel.Caption>
+                <p className="font-face-FuturaRenner">
+                  Secondo bagno dopo l'intervento
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -161,53 +174,46 @@ function Progetto15() {
 
         <Row className="mt-4 d-flex justify-content-center">
           <p className="font-face-FuturaRenner pDescrizioneProgetto">
-            Il progetto di riqualificazione energetica prevedeva una serie di
-            interventi mirati a migliorare l’efficienza dell’edificio, riducendo
-            i consumi e aumentando il comfort abitativo attraverso soluzioni
-            avanzate di isolamento, climatizzazione e produzione energetica da
-            fonti rinnovabili.
+            Il progetto prevedeva un intervento di rinnovamento volto a
+            migliorare la funzionalità e l’efficienza dell’edificio, con
+            un’attenzione particolare all’adeguamento impiantistico e al
+            miglioramento del comfort abitativo.
             <br></br>
             <hr></hr>
-            Uno degli interventi chiave riguardava l’isolamento termico delle
-            superfici opache verticali, orizzontali e inclinate mediante la posa
-            di un cappotto termico. Questa soluzione consente di ridurre le
-            dispersioni di calore, migliorando l’efficienza energetica
-            complessiva dell’edificio e garantendo un ambiente interno più
-            confortevole, sia in inverno che in estate.<br></br>
-            <hr></hr>A supporto di questa trasformazione, sono stati sostituiti
-            gli infissi con modelli ad alte prestazioni, capaci di migliorare
-            l’isolamento termico e acustico, riducendo le perdite di energia e
-            ottimizzando il comfort degli ambienti interni. Inoltre, per gestire
-            al meglio la luce naturale e ridurre il surriscaldamento estivo,
-            sono state installate schermature solari e chiusure oscuranti, che
-            contribuiscono all’efficienza energetica dell’edificio.
+            Uno degli interventi principali riguardava il rifacimento completo
+            dei servizi igienici, compresi gli impianti idrico-sanitari. Questo
+            intervento permette di migliorare l’efficienza degli impianti
+            esistenti, garantendo una maggiore affidabilità e adeguandoli alle
+            normative vigenti. I nuovi sanitari e finiture sono scelti per
+            garantire qualità, durata nel tempo e una migliore fruibilità degli
+            spazi.<br></br>
+            <hr></hr>Per ottimizzare la distribuzione degli ambienti, vengono
+            effettuate lievi modifiche murarie, finalizzate a creare un layout
+            più funzionale e adatto alle esigenze degli utenti. Le nuove
+            soluzioni spaziali contribuiscono a migliorare la vivibilità degli
+            ambienti, ottimizzando la disposizione degli arredi e favorendo una
+            maggiore fruibilità degli spazi interni.
             <br></br>
             <hr></hr>
-            Per quanto riguarda gli impianti, è stata effettuata la sostituzione
-            degli vecchi sistemi di climatizzazione invernale con soluzioni più
-            efficienti e performanti. A complemento di questo intervento, è
-            stata installata una caldaia a condensazione, che garantisce un
-            elevato rendimento energetico riducendo i consumi e le emissioni
-            rispetto alle caldaie tradizionali.<br></br>
+            Un altro elemento chiave dell’intervento è la sostituzione dei
+            serramenti esistenti in legno con nuovi infissi in PVC conformi alla
+            normativa vigente. Questa scelta consente di migliorare l’isolamento
+            termico e acustico dell’edificio, garantendo una maggiore efficienza
+            energetica e un miglior comfort interno. I nuovi serramenti offrono
+            inoltre una maggiore durabilità e una ridotta necessità di
+            manutenzione nel tempo.<br></br>
             <hr></hr>
-            Un altro aspetto fondamentale del progetto è la produzione di
-            energia da fonti rinnovabili, attraverso l’installazione di un
-            impianto fotovoltaico. Questo permette di generare energia elettrica
-            pulita, riducendo la dipendenza dalla rete e abbattendo i costi
-            energetici. Per massimizzare l’autoconsumo dell’energia prodotta, il
-            sistema è stato integrato con accumulatori, che consentono di
-            immagazzinare l’energia in eccesso e utilizzarla nei momenti di
-            maggiore necessità.<br></br>
+            Infine, il progetto prevedeva il rifacimento completo dell’impianto
+            elettrico, con l’obiettivo di migliorare la sicurezza e l’efficienza
+            dell’infrastruttura esistente. Il nuovo impianto è stato progettato
+            in conformità alle normative attuali, garantendo una distribuzione
+            ottimale dei punti luce e delle prese elettriche, con eventuali
+            predisposizioni per future implementazioni tecnologiche.<br></br>
             <hr></hr>
-            Infine, il progetto prevedeva l’installazione di infrastrutture per
-            la ricarica di veicoli elettrici, promuovendo così la mobilità
-            sostenibile e rendendo l’edificio più moderno e allineato agli
-            standard ambientali futuri.<br></br>
-            <hr></hr>
-            Nel complesso, questi interventi portano a un notevole miglioramento
-            delle prestazioni energetiche, aumentando il valore dell’edificio,
-            riducendo l’impatto ambientale e migliorando la qualità della vita
-            degli occupanti.
+            Nel complesso, questi interventi contribuiscono a rendere l’edificio
+            più moderno, funzionale ed efficiente, migliorandone la qualità
+            abitativa e garantendo un adeguamento agli standard normativi
+            attuali.
           </p>
         </Row>
 
